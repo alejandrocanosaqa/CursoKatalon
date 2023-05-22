@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_WebForms TreeView Overview_rtMinus rtM_4103a7</name>
+   <tag></tag>
+   <elementGuidId>55ff8ef9-cb9a-4361-8227-f7f32b5815b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.rtMinus.rtMinusHover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_ContentPlaceholder1_RadTreeView1']/ul/li/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bbc20bad-16e3-46b9-a5fb-a97296c5895e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rtMinus rtMinusHover</value>
+      <webElementGuid>03606046-a788-485e-b388-e23d4bbb053c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceholder1_RadTreeView1&quot;)/ul[@class=&quot;rtUL rtLines&quot;]/li[@class=&quot;rtLI rtFirst rtLast&quot;]/div[@class=&quot;rtOut&quot;]/span[@class=&quot;rtMinus rtMinusHover&quot;]</value>
+      <webElementGuid>b478d9d0-79f8-4127-a132-fb3ef48fdf7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceholder1_RadTreeView1']/ul/li/div/span</value>
+      <webElementGuid>0c1337b6-2db6-46a8-aa78-636273625c21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/ul/li/div/span</value>
+      <webElementGuid>15921287-6115-4e17-aefd-e35a0bf822fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

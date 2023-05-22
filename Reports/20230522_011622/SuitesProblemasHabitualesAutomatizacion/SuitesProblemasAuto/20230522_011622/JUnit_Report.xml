@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuitesProblemasAuto" time="18.426" tests="10" failures="0" errors="0">
+   <testsuite name="SuitesProblemasAuto" tests="10" failures="0" errors="0" time="18.426" skipped="0" timestamp="2023-05-22 01:16:24" hostname="aleja - 192.168.1.13" id="Test Suites/SuitesProblemasHabitualesAutomatizacion/SuitesProblemasAuto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aleja\\Katalon Studio\\practicaselenium\\Reports\\20230522_011622\\SuitesProblemasHabitualesAutomatizacion\\SuitesProblemasAuto\\20230522_011622"/>
+         <property name="logFiles" value="C:\\Users\\aleja\\Katalon Studio\\practicaselenium\\Reports\\20230522_011622\\SuitesProblemasHabitualesAutomatizacion\\SuitesProblemasAuto\\20230522_011622\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aleja - 192.168.1.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="97b939bd119e18f37d580e2966ce4c3d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento" time="4.31" classname="Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:24 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento: Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento
+
+2023-05-22 01:16:24 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:24 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-22 01:16:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-22 01:16:25 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --incognito, disable-notifications]']
+
+2023-05-22 01:16:25 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-05-22 01:16:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-22 01:16:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-22 01:16:27 - [TEST_STEP][PASSED] - navigateToUrl("http://pruebaselenium.serviciosdetesting.com/"): Navigate to 'http://pruebaselenium.serviciosdetesting.com/' successfully
+
+2023-05-22 01:16:28 - [MESSAGE][PASSED] - Navigate to 'http://pruebaselenium.serviciosdetesting.com/' successfully
+
+2023-05-22 01:16:28 - [TEST_STEP][PASSED] - comment("Practica nivel 1"): Practica nivel 1
+
+2023-05-22 01:16:28 - [MESSAGE][INFO] - Practica nivel 1
+
+2023-05-22 01:16:28 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/BotonEmpezar")): Object: 'Object Repository/AllTestLevel/BotonEmpezar' is clicked on
+
+2023-05-22 01:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/BotonEmpezar' is clicked on
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:29 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento" time="0.897" classname="Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:29 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento: Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:29 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - comment("Practica nivel 2"): Practica nivel 2
+
+2023-05-22 01:16:29 - [MESSAGE][INFO] - Practica nivel 2
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("AllTestLevel/Textbox_nivel2"), "selenium"): Text 'selenium' is set on object 'Object Repository/AllTestLevel/Textbox_nivel2'
+
+2023-05-22 01:16:29 - [MESSAGE][PASSED] - Text 'selenium' is set on object 'Object Repository/AllTestLevel/Textbox_nivel2'
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton_Nivel2"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton_Nivel2' is clickable
+
+2023-05-22 01:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton_Nivel2' is clickable
+
+2023-05-22 01:16:29 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton_Nivel2")): Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento" time="0.853" classname="Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:30 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento: Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - comment("Pratica nivel 3"): Pratica nivel 3
+
+2023-05-22 01:16:30 - [MESSAGE][INFO] - Pratica nivel 3
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Texto_label = getText(findTestObject("AllTestLevel/Label_nivel3")): Text of object 'Object Repository/AllTestLevel/Label_nivel3' is: 'I am doing Selenium stuff!'
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/AllTestLevel/Label_nivel3' is: 'I am doing Selenium stuff!'
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Textbox_nivel2"), DelayCorto): Object 'Object Repository/AllTestLevel/Textbox_nivel2' is clickable
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Textbox_nivel2' is clickable
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - setText(findTestObject("AllTestLevel/Textbox_nivel2"), Texto_label): Text 'I am doing Selenium stuff!' is set on object 'Object Repository/AllTestLevel/Textbox_nivel2'
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Text 'I am doing Selenium stuff!' is set on object 'Object Repository/AllTestLevel/Textbox_nivel2'
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton_Nivel2"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton_Nivel2' is clickable
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton_Nivel2' is clickable
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton_Nivel2")): Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos" time="2.044" classname="Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:30 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos: Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos
+
+2023-05-22 01:16:30 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - comment("Practica nivel 4"): Practica nivel 4
+
+2023-05-22 01:16:31 - [MESSAGE][INFO] - Practica nivel 4
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton1_nivel4"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton1_nivel4' is clickable
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton1_nivel4' is clickable
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton1_nivel4")): Object: 'Object Repository/AllTestLevel/Boton1_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton1_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton2_nivel4"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton2_nivel4' is clickable
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton2_nivel4' is clickable
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton2_nivel4")): Object: 'Object Repository/AllTestLevel/Boton2_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton2_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton3_nivel4"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton3_nivel4' is clickable
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton3_nivel4' is clickable
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton3_nivel4")): Object: 'Object Repository/AllTestLevel/Boton3_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton3_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("AllTestLevel/Boton4_nivel4"), DelayCorto): Object 'Object Repository/AllTestLevel/Boton4_nivel4' is clickable
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/AllTestLevel/Boton4_nivel4' is clickable
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton4_nivel4")): Object: 'Object Repository/AllTestLevel/Boton4_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton4_nivel4' is clicked on
+
+2023-05-22 01:16:31 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-22 01:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-22 01:16:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:32 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:32 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace" time="1.627" classname="Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:32 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace: Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace
+
+2023-05-22 01:16:32 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:32 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:33 - [TEST_STEP][PASSED] - comment("Practica nivel 5"): Practica nivel 5
+
+2023-05-22 01:16:33 - [MESSAGE][INFO] - Practica nivel 5
+
+2023-05-22 01:16:33 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Enlace_nivel5")): Object: 'Object Repository/AllTestLevel/Enlace_nivel5' is clicked on
+
+2023-05-22 01:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Enlace_nivel5' is clicked on
+
+2023-05-22 01:16:33 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-22 01:16:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:34 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript" time="2.561" classname="Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:34 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript: Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:34 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - comment("Practica 6"): Practica 6
+
+2023-05-22 01:16:34 - [MESSAGE][INFO] - Practica 6
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - testObj = findTestObject("AllTestLevel/BotonOculto"): null
+
+2023-05-22 01:16:34 - [TEST_STEP][PASSED] - BotonOculto = findWebElement(testObj, 5): null
+
+2023-05-22 01:16:35 - [TEST_STEP][PASSED] - comment("Practica Nivel 7"): Practica Nivel 7
+
+2023-05-22 01:16:35 - [MESSAGE][INFO] - Practica Nivel 7
+
+2023-05-22 01:16:35 - [TEST_STEP][PASSED] - executeJavaScript("changePage();", Arrays.asList(BotonOculto), CONTINUE_ON_FAILURE): Execute JavaScript 'changePage();' successfully
+
+2023-05-22 01:16:35 - [MESSAGE][PASSED] - Execute JavaScript 'changePage();' successfully
+
+2023-05-22 01:16:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-22 01:16:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta" time="0.465" classname="Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:37 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta: Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - comment("Practica Nivel 8"): Practica Nivel 8
+
+2023-05-22 01:16:37 - [MESSAGE][INFO] - Practica Nivel 8
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - alert().sendKeys("9"): null
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - alert().accept(): null
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra" time="1.263" classname="Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:37 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra: Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra
+
+2023-05-22 01:16:37 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - comment("Practica 9"): Practica 9
+
+2023-05-22 01:16:38 - [MESSAGE][INFO] - Practica 9
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - IndiceVentanaActual = getWindowIndex(): Current window's index is: 0
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - switchToWindowIndex(IndiceVentanaActual + 1): Switched to window with index: '1'
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - password = getText(findTestObject("AllTestLevel/TextoPassword")): Text of object 'Object Repository/AllTestLevel/TextoPassword' is: '4m4z1ngP455w0rD'
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/AllTestLevel/TextoPassword' is: '4m4z1ngP455w0rD'
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("AllTestLevel/TextBox_nivel2"), password): Text '4m4z1ngP455w0rD' is set on object 'Object Repository/AllTestLevel/TextBox_nivel2'
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Text '4m4z1ngP455w0rD' is set on object 'Object Repository/AllTestLevel/TextBox_nivel2'
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - click(findTestObject("AllTestLevel/Boton_Nivel2")): Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AllTestLevel/Boton_Nivel2' is clicked on
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro" time="2.883" classname="Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:38 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro: Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro
+
+2023-05-22 01:16:38 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:38 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - comment("Practica 10"): Practica 10
+
+2023-05-22 01:16:39 - [MESSAGE][INFO] - Practica 10
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - Sourcelevel10 = By.id("source"): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - Targetlevel10 = By.id("target"): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - from = driver.findElement(Sourcelevel10): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - to = driver.findElement(Targetlevel10): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - build().perform(): null
+
+2023-05-22 01:16:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-22 01:16:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-22 01:16:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:41 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:41 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto" time="1.214" classname="Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto" status="PASSED">
+         <system-out><![CDATA[2023-05-22 01:16:41 - [TEST_CASE][PASSED] - Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto: Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto
+
+2023-05-22 01:16:41 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:41 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AllTestLevel/TextoFinalPractica"), "¡Enhorabuena! Has llegado al final de la práctica"): Actual text and expected text of test object 'Object Repository/AllTestLevel/TextoFinalPractica' are matched.
+
+2023-05-22 01:16:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AllTestLevel/TextoFinalPractica' are matched.
+
+2023-05-22 01:16:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-22 01:16:43 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-22 01:16:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-22 01:16:43 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-22 01:16:43 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-22 01:16:24 - [TEST_SUITE][PASSED] - SuitesProblemasAuto: Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
