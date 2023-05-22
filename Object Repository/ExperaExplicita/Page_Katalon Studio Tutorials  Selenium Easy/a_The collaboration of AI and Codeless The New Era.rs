@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_The collaboration of AI and Codeless The New Era</name>
+   <tag></tag>
+   <elementGuidId>1120497c-7b18-4b01-ba1a-f6bbfa58a3cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@href='/content/collaboration-ai-and-codeless-new-era'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b17188a4-ad5f-474e-8441-eab21820aa5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/content/collaboration-ai-and-codeless-new-era</value>
+      <webElementGuid>d903a50b-b3ff-4dea-a883-21436b7097e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The collaboration of AI and Codeless: The New Era</value>
+      <webElementGuid>30400f08-b6b0-44a4-a4ae-5fc614a8be56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;node-292&quot;)/header[1]/h2[1]/a[1]</value>
+      <webElementGuid>d7fcbcae-d718-49d1-a2bc-83ff595d987e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='node-292']/header/h2/a</value>
+      <webElementGuid>b0e9cf51-be00-4578-80c1-797449bffde4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'The collaboration of AI and Codeless: The New Era')]</value>
+      <webElementGuid>1071737b-e5c9-42d3-b007-502fa9b3220a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon Studio Tutorials'])[2]/following::a[1]</value>
+      <webElementGuid>3c2d5c88-b633-4123-a517-4e4321b36344</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>>'])[1]/following::a[2]</value>
+      <webElementGuid>652d865c-8320-455e-b436-6614592d5191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='huynduong'])[1]/preceding::a[1]</value>
+      <webElementGuid>e4db7f9d-6b7b-418f-a731-240ddba50f55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The collaboration of AI and Codeless: The New Era']/parent::*</value>
+      <webElementGuid>16db3182-2f90-49c4-84f3-6ccde0b2c124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/content/collaboration-ai-and-codeless-new-era')]</value>
+      <webElementGuid>c0139b24-0ac1-4cb4-932e-3e31fa7ff661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2/a</value>
+      <webElementGuid>faaacb2a-20b4-4be0-8b69-411b555d8cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/content/collaboration-ai-and-codeless-new-era' and (text() = 'The collaboration of AI and Codeless: The New Era' or . = 'The collaboration of AI and Codeless: The New Era')]</value>
+      <webElementGuid>31b7b395-3ba9-44b0-a34c-b37fc8bb310c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

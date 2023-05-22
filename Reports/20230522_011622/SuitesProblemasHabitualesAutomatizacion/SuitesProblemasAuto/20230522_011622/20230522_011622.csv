@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuitesProblemasAuto,Chrome 113.0.0.0,,,2023-05-22 01:16:24,2023-05-22 01:16:43,"18,426s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento,Chrome 113.0.0.0,,,2023-05-22 01:16:24,2023-05-22 01:16:29,"4,310s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:24,2023-05-22 01:16:24,"0,017s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-22 01:16:25,2023-05-22 01:16:27,"2,585s",PASSED
+"navigateToUrl(""http://pruebaselenium.serviciosdetesting.com/"")",Chrome 113.0.0.0,,,2023-05-22 01:16:27,2023-05-22 01:16:28,"1,086s",PASSED
+"comment(""Practica nivel 1"")",Chrome 113.0.0.0,,,2023-05-22 01:16:28,2023-05-22 01:16:28,"0,026s",PASSED
+"click(findTestObject(""AllTestLevel/BotonEmpezar""))",Chrome 113.0.0.0,,,2023-05-22 01:16:28,2023-05-22 01:16:29,"0,297s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,002s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento,Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:30,"0,897s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,001s",PASSED
+"comment(""Practica nivel 2"")",Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,002s",PASSED
+"setText(findTestObject(""AllTestLevel/Textbox_nivel2""), ""selenium"")",Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,191s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton_Nivel2""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:29,"0,241s",PASSED
+"click(findTestObject(""AllTestLevel/Boton_Nivel2""))",Chrome 113.0.0.0,,,2023-05-22 01:16:29,2023-05-22 01:16:30,"0,199s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,853s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,001s",PASSED
+"comment(""Pratica nivel 3"")",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,002s",PASSED
+"Texto_label = getText(findTestObject(""AllTestLevel/Label_nivel3""))",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,100s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Textbox_nivel2""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,073s",PASSED
+"setText(findTestObject(""AllTestLevel/Textbox_nivel2""), Texto_label)",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,192s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton_Nivel2""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,080s",PASSED
+"click(findTestObject(""AllTestLevel/Boton_Nivel2""))",Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,183s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,001s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,000s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:32,"2,044s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:30,2023-05-22 01:16:30,"0,000s",PASSED
+"comment(""Practica nivel 4"")",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,003s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton1_nivel4""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,075s",PASSED
+"click(findTestObject(""AllTestLevel/Boton1_nivel4""))",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,119s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton2_nivel4""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,067s",PASSED
+"click(findTestObject(""AllTestLevel/Boton2_nivel4""))",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,088s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton3_nivel4""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,074s",PASSED
+"click(findTestObject(""AllTestLevel/Boton3_nivel4""))",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,099s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton4_nivel4""), DelayCorto)",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,095s",PASSED
+"click(findTestObject(""AllTestLevel/Boton4_nivel4""))",Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:31,"0,199s",PASSED
+delay(DelayCorto),Chrome 113.0.0.0,,,2023-05-22 01:16:31,2023-05-22 01:16:32,"1,018s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:32,2023-05-22 01:16:32,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:32,2023-05-22 01:16:32,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace,Chrome 113.0.0.0,,,2023-05-22 01:16:32,2023-05-22 01:16:34,"1,627s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:32,2023-05-22 01:16:32,"0,000s",PASSED
+"comment(""Practica nivel 5"")",Chrome 113.0.0.0,,,2023-05-22 01:16:33,2023-05-22 01:16:33,"0,003s",PASSED
+"click(findTestObject(""AllTestLevel/Enlace_nivel5""))",Chrome 113.0.0.0,,,2023-05-22 01:16:33,2023-05-22 01:16:33,"0,356s",PASSED
+delay(DelayCorto),Chrome 113.0.0.0,,,2023-05-22 01:16:33,2023-05-22 01:16:34,"1,003s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:34,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:34,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript,Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:37,"2,561s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:34,"0,001s",PASSED
+"comment(""Practica 6"")",Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:34,"0,003s",PASSED
+"testObj = findTestObject(""AllTestLevel/BotonOculto"")",Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:34,"0,051s",PASSED
+"BotonOculto = findWebElement(testObj, 5)",Chrome 113.0.0.0,,,2023-05-22 01:16:34,2023-05-22 01:16:35,"0,029s",PASSED
+"comment(""Practica Nivel 7"")",Chrome 113.0.0.0,,,2023-05-22 01:16:35,2023-05-22 01:16:35,"0,001s",PASSED
+"executeJavaScript(""changePage();"", Arrays.asList(BotonOculto), CONTINUE_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-22 01:16:35,2023-05-22 01:16:35,"0,140s",PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-22 01:16:35,2023-05-22 01:16:37,"2,009s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,465s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,001s",PASSED
+"comment(""Practica Nivel 8"")",Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,003s",PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,001s",PASSED
+"alert().sendKeys(""9"")",Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,054s",PASSED
+alert().accept(),Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,016s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:38,"1,263s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:37,2023-05-22 01:16:37,"0,001s",PASSED
+"comment(""Practica 9"")",Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,002s",PASSED
+IndiceVentanaActual = getWindowIndex(),Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,019s",PASSED
+switchToWindowIndex(IndiceVentanaActual + 1),Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,020s",PASSED
+"password = getText(findTestObject(""AllTestLevel/TextoPassword""))",Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,108s",PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,032s",PASSED
+"setText(findTestObject(""AllTestLevel/TextBox_nivel2""), password)",Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,219s",PASSED
+"click(findTestObject(""AllTestLevel/Boton_Nivel2""))",Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,439s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,001s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro,Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:41,"2,883s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:38,2023-05-22 01:16:38,"0,001s",PASSED
+"comment(""Practica 10"")",Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,001s",PASSED
+"Sourcelevel10 = By.id(""source"")",Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,008s",PASSED
+"Targetlevel10 = By.id(""target"")",Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,001s",PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,000s",PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,010s",PASSED
+from = driver.findElement(Sourcelevel10),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,040s",PASSED
+to = driver.findElement(Targetlevel10),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,032s",PASSED
+build().perform(),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:39,"0,344s",PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-22 01:16:39,2023-05-22 01:16:41,"2,012s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:41,2023-05-22 01:16:41,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:41,2023-05-22 01:16:41,"0,000s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto,Chrome 113.0.0.0,,,2023-05-22 01:16:41,2023-05-22 01:16:43,"1,214s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-22 01:16:41,2023-05-22 01:16:41,"0,001s",PASSED
+"verifyElementText(findTestObject(""AllTestLevel/TextoFinalPractica""), ""¡Enhorabuena! Has llegado al final de la práctica"")",Chrome 113.0.0.0,,,2023-05-22 01:16:42,2023-05-22 01:16:42,"0,105s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-22 01:16:42,2023-05-22 01:16:43,"0,840s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-22 01:16:43,2023-05-22 01:16:43,"0,000s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-22 01:16:43,2023-05-22 01:16:43,"0,000s",PASSED
