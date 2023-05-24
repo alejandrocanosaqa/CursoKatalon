@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suites_Curso_Katalon_parte1" time="136.817" tests="4" failures="1" errors="0">
+   <testsuite name="Suites_Curso_Katalon_parte1" tests="4" failures="1" errors="0" time="136.817" skipped="0" timestamp="2023-05-23 15:23:20" hostname="user - 192.168.1.21" id="Test Suites/Curso_De_Katalon/Suites_Curso_Katalon_parte1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_152258\\Curso_De_Katalon\\Suites_Curso_Katalon_parte1\\20230523_152301"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_152258\\Curso_De_Katalon\\Suites_Curso_Katalon_parte1\\20230523_152301\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_152258\\Curso_De_Katalon\\Suites_Curso_Katalon_parte1\\20230523_152301\\1684848314878.png"/>
+         <property name="hostName" value="user - 192.168.1.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="5ead5cab00de9ce26572cec60db63b2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CursoKatalon/AccionesconElRaton" time="46.657" classname="Test Cases/CursoKatalon/AccionesconElRaton" status="PASSED">
+         <system-out><![CDATA[2023-05-23 15:23:22 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/AccionesconElRaton: Test Cases/CursoKatalon/AccionesconElRaton
+
+2023-05-23 15:23:22 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:23:22 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:23:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 15:23:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 15:23:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 15:23:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 15:23:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 15:23:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 15:23:38 - [TEST_STEP][PASSED] - navigateToUrl("https://pruebasqafenix.com/"): Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-05-23 15:23:41 - [MESSAGE][PASSED] - Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-05-23 15:23:41 - [TEST_STEP][PASSED] - click(findTestObject("AccionesConElRaton/AceptarCookie")): Object: 'Object Repository/AccionesConElRaton/AceptarCookie' is clicked on
+
+2023-05-23 15:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AccionesConElRaton/AceptarCookie' is clicked on
+
+2023-05-23 15:23:48 - [TEST_STEP][PASSED] - focus(findTestObject("AccionesConElRaton/Productos")): Object: 'Object Repository/AccionesConElRaton/Productos' is focused
+
+2023-05-23 15:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AccionesConElRaton/Productos' is focused
+
+2023-05-23 15:23:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-23 15:23:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-23 15:23:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("AccionesConElRaton/Categorias")): Object: 'Object Repository/AccionesConElRaton/Categorias' is hovered
+
+2023-05-23 15:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AccionesConElRaton/Categorias' is hovered
+
+2023-05-23 15:23:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-23 15:23:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-23 15:23:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("AccionesConElRaton/Productos")): Object: 'Object Repository/AccionesConElRaton/Productos' is hovered
+
+2023-05-23 15:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AccionesConElRaton/Productos' is hovered
+
+2023-05-23 15:24:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("AccionesConElRaton/Productos en Stock"), 5): Object 'Object Repository/AccionesConElRaton/Productos en Stock' is visible
+
+2023-05-23 15:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/AccionesConElRaton/Productos en Stock' is visible
+
+2023-05-23 15:24:02 - [TEST_STEP][PASSED] - click(findTestObject("AccionesConElRaton/Productos en Stock")): Object: 'Object Repository/AccionesConElRaton/Productos en Stock' is clicked on
+
+2023-05-23 15:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AccionesConElRaton/Productos en Stock' is clicked on
+
+2023-05-23 15:24:07 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-23 15:24:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-23 15:24:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 15:24:09 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 15:24:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 15:24:09 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:09 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Doble_click" time="18.673" classname="Test Cases/CursoKatalon/Doble_click" status="PASSED">
+         <system-out><![CDATA[2023-05-23 15:24:09 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Doble_click: Test Cases/CursoKatalon/Doble_click
+
+2023-05-23 15:24:09 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:09 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 15:24:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 15:24:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 15:24:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 15:24:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"): Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2023-05-23 15:24:17 - [MESSAGE][PASSED] - Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2023-05-23 15:24:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 15:24:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 15:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/button_Accept and Close")): Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/button_Accept and Close' is clicked on
+
+2023-05-23 15:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/button_Accept and Close' is clicked on
+
+2023-05-23 15:24:20 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2023-05-23 15:24:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-23 15:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7")): Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clicked on
+
+2023-05-23 15:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clicked on
+
+2023-05-23 15:24:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7")): Object 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clickable
+
+2023-05-23 15:24:23 - [MESSAGE][PASSED] - Object 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clickable
+
+2023-05-23 15:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7")): Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clicked on
+
+2023-05-23 15:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7' is clicked on
+
+2023-05-23 15:24:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtPlus rtPlusHover")): Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtPlus rtPlusHover' is double clicked on
+
+2023-05-23 15:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtPlus rtPlusHover' is double clicked on
+
+2023-05-23 15:24:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 15:24:27 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 15:24:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 15:24:27 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:27 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Drog_and_Drag" time="47.542" classname="Test Cases/CursoKatalon/Drog_and_Drag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CursoKatalon/Drog_and_Drag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-23 15:24:28 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Drog_and_Drag: Test Cases/CursoKatalon/Drog_and_Drag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-23 15:24:28 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:28 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:24:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 15:24:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 15:24:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 15:24:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 15:24:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/demo-site/draganddrop/"): Navigate to 'https://www.globalsqa.com/demo-site/draganddrop/' successfully
+
+2023-05-23 15:24:40 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/demo-site/draganddrop/' successfully
+
+2023-05-23 15:24:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 15:24:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 15:24:41 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-05-23 15:24:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-23 15:24:41 - [TEST_STEP][FAILED] - dragAndDropToObject(findTestObject("Object Repository/Drog_and_Drag/Elemento1"), findTestObject("Object Repository/Drog_and_Drag/Contenedor")): Unable to drag and drop to object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Script1684756794368.run(Script1684756794368.groovy:28)
+	... 13 more
+)
+
+2023-05-23 15:25:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[contains(@alt,'The peaks of High Tatras')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-23 15:25:15 - [MESSAGE][FAILED] - Unable to drag and drop to object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Script1684756794368.run(Script1684756794368.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_152258\\Curso_De_Katalon\\Suites_Curso_Katalon_parte1\\20230523_152301\\1684848314878.png]]
+
+2023-05-23 15:25:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 15:25:15 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:25:15 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:25:15 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[2023-05-23 15:24:28 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Drog_and_Drag: Test Cases/CursoKatalon/Drog_and_Drag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/EsperaExplicita" time="22.033" classname="Test Cases/CursoKatalon/EsperaExplicita" status="PASSED">
+         <system-out><![CDATA[2023-05-23 15:25:15 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/EsperaExplicita: Test Cases/CursoKatalon/EsperaExplicita
+
+2023-05-23 15:25:15 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:25:15 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:25:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 15:25:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-23 15:25:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 15:25:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 15:25:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 15:25:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.seleniumeasy.com/katalon-studio"): Navigate to 'https://www.seleniumeasy.com/katalon-studio' successfully
+
+2023-05-23 15:25:26 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/katalon-studio' successfully
+
+2023-05-23 15:25:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 15:25:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 15:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ExperaExplicita/Page_Katalon Studio Tutorials  Selenium Easy/a_The collaboration of AI and Codeless The New Era")): Object: 'Object Repository/ExperaExplicita/Page_Katalon Studio Tutorials  Selenium Easy/a_The collaboration of AI and Codeless The New Era' is clicked on
+
+2023-05-23 15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ExperaExplicita/Page_Katalon Studio Tutorials  Selenium Easy/a_The collaboration of AI and Codeless The New Era' is clicked on
+
+2023-05-23 15:25:32 - [TEST_STEP][PASSED] - waitForPageLoad(DelayLargo): Wait for page load successfully
+
+2023-05-23 15:25:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-23 15:25:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097"), 0): Scroll to object 'Object Repository/ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097' successfully
+
+2023-05-23 15:25:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 15:25:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097' successfully
+
+2023-05-23 15:25:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097")): Object 'Object Repository/ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097' is visible
+
+2023-05-23 15:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097' is visible
+
+2023-05-23 15:25:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 15:25:37 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 15:25:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 15:25:37 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 15:25:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-23 15:23:20 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte1: Test Cases/CursoKatalon/Drog_and_Drag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-23 15:23:20 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte1: Test Cases/CursoKatalon/Drog_and_Drag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to drag and drop to object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.dragAndDropToObject(DragAndDropToObjectKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword.execute(DragAndDropToObjectKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.dragAndDropToObject(WebUiBuiltInKeywords.groovy:2648)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$dragAndDropToObject$10.call(Unknown Source)
+	at Drog_and_Drag.run(Drog_and_Drag:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684848181121.run(TempTestSuite1684848181121.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drog_and_Drag/Elemento1' located by '//img[contains(@alt,'The peaks of High Tatras')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.doCall(DragAndDropToObjectKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.DragAndDropToObjectKeyword$_dragAndDropToObject_closure1.call(DragAndDropToObjectKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

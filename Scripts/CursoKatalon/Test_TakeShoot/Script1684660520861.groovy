@@ -39,17 +39,17 @@ WebUI.setText(findTestObject('Object Repository/Test_TakeShoot/Page_DEMOQA/texta
     'calle doctor esquerdo 67')
 
 WebUI.waitForElementClickable(findTestObject('Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress'), 
-    0)
+    5)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.waitForElementClickable(findTestObject('Test_TakeShoot/Page_DEMOQA/button_Submit'), 0)
+WebUI.waitForElementClickable(findTestObject('null'), 5)
 
-WebUI.click(findTestObject('Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2'))
 
-WebUI.takeScreenshot('C:\\Users\\aleja\\git\\practicaselenium\\Imagenes\\imagen1.png')
+WebUI.takeScreenshot('C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Imagenes\\imagen1.png')
 
 WebUI.closeBrowser()
 

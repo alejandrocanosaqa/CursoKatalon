@@ -1,0 +1,1 @@
+Test Suites/Curso_De_Katalon/Suite_coleccion2

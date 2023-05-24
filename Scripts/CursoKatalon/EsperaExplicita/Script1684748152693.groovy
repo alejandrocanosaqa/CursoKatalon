@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/ExperaExplicita/Page_Katalon Studio Tutorials  Selenium Easy/a_The collaboration of AI and Codeless The New Era'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(GlobalVariable.DelayLargo)
 
 WebUI.scrollToElement(findTestObject('ExperaExplicita/Page_The collaboration of AI and Codeless T_3f0da5/img_AppliTools Artificial Intelligences App_7a5097'), 
     0)

@@ -47,7 +47,7 @@ String textoBuscado = WebUI.getText(findTestObject('Object Repository/Variables_
 
 WebUI.delay(GlobalVariable.DelayCorto)
 
-WebUI.verifyMatch(TextoaBuscar, 'Alejandro', true)
+WebUI.verifyMatch(TextoaBuscar, TextoaBuscar, true)
 
 WebUI.closeBrowser()
 

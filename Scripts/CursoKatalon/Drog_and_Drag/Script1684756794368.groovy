@@ -41,7 +41,7 @@ WebUI.verifyElementPresent(findTestObject('Drog_and_Drag/Imagen3DentrodeContened
 
 WebUI.verifyElementPresent(findTestObject('Drog_and_Drag/Imagen4DentroDeContenedor'), 3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.DelayLargo)
 
 WebUI.closeBrowser()
 

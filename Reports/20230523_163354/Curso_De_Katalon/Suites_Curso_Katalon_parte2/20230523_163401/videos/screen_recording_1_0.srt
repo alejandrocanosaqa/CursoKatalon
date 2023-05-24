@@ -1,0 +1,136 @@
+1
+00:00:09,552 --> 00:01:06,940
+1. openBrowser("")
+
+2
+00:01:07,051 --> 00:01:19,419
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:01:19,431 --> 00:01:20,739
+9. maximizeWindow()
+
+4
+00:01:20,743 --> 00:01:24,848
+13. setText(findTestObject("Rellenar_Formulario/Nombre"), Nombre)
+
+5
+00:01:24,850 --> 00:01:28,095
+17. delay(DelayCorto)
+
+6
+00:01:28,146 --> 00:01:30,574
+21. setText(findTestObject("Rellenar_Formulario/Apellidos"), Apellidos)
+
+7
+00:01:30,577 --> 00:01:31,651
+25. delay(DelayCorto)
+
+8
+00:01:31,655 --> 00:01:34,471
+29. setText(findTestObject("Rellenar_Formulario/Email"), Email)
+
+9
+00:01:34,584 --> 00:01:35,921
+33. delay(DelayCorto)
+
+10
+00:01:35,993 --> 00:01:38,235
+37. verifyElementClickable(findTestObject("Rellenar_Formulario/RadioButton_male"))
+
+11
+00:01:38,705 --> 00:01:43,694
+41. click(findTestObject("Rellenar_Formulario/RadioButton_male"))
+
+12
+00:01:43,697 --> 00:01:44,707
+45. delay(DelayCorto)
+
+13
+00:01:45,108 --> 00:01:48,363
+49. setText(findTestObject("Rellenar_Formulario/Movil"), Movil)
+
+14
+00:01:48,369 --> 00:01:50,314
+53. TextoMovil = getText(findTestObject("Rellenar_Formulario/Movil"))
+
+15
+00:01:50,319 --> 00:01:50,640
+57. verifyMatch("667356724", "(\+34|0034|34)?[ -]*(6|7)([0-9]){2}[ -]?(([0-9]){2}[ -]?([0-9]){2}[ -]?([0-9]){2}|([0-9]){3}[ -]?([0-9]){3})", true, CONTINUE_ON_FAILURE)
+
+16
+00:01:50,645 --> 00:01:51,807
+61. delay(1)
+
+17
+00:01:51,855 --> 00:01:55,952
+65. click(findTestObject("Rellenar_Formulario/Cumpleaños"))
+
+18
+00:01:55,956 --> 00:01:56,974
+69. delay(1)
+
+19
+00:01:56,986 --> 00:02:01,419
+73. selectOptionByValue(findTestObject("Rellenar_Formulario/Mes"), "10", false)
+
+20
+00:02:01,423 --> 00:02:05,759
+77. selectOptionByValue(findTestObject("Rellenar_Formulario/Año"), "1977", false)
+
+21
+00:02:05,761 --> 00:02:08,141
+81. click(findTestObject("Rellenar_Formulario/Dia"))
+
+22
+00:02:08,143 --> 00:02:09,274
+85. delay(DelayCorto)
+
+23
+00:02:09,277 --> 00:02:12,864
+89. verifyElementClickable(findTestObject("Rellenar_Formulario/Asunto"), CONTINUE_ON_FAILURE)
+
+24
+00:02:12,866 --> 00:02:17,812
+93. click(findTestObject("Rellenar_Formulario/Asunto"))
+
+25
+00:02:17,815 --> 00:02:17,887
+97. comment("No permite escribir en este elemento")
+
+26
+00:02:17,889 --> 00:02:18,978
+101. delay(1)
+
+27
+00:02:19,116 --> 00:02:24,221
+105. verifyElementClickable(findTestObject("Rellenar_Formulario/Sports"), CONTINUE_ON_FAILURE)
+
+28
+00:02:24,226 --> 00:02:26,625
+109. click(findTestObject("Rellenar_Formulario/Sports"))
+
+29
+00:02:26,628 --> 00:02:27,659
+113. delay(DelayCorto)
+
+30
+00:02:27,709 --> 00:02:30,384
+117. uploadFile(findTestObject("Rellenar_Formulario/Subir_Archivo"), "C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png")
+
+31
+00:02:30,392 --> 00:02:35,247
+121. scrollToElement(findTestObject("Rellenar_Formulario/Direccion"), 0)
+
+32
+00:02:35,249 --> 00:02:37,100
+125. click(findTestObject("Rellenar_Formulario/Direccion"))
+
+33
+00:02:37,102 --> 00:02:39,103
+129. setText(findTestObject("Rellenar_Formulario/Direccion"), "Calle alfonso VII numero 7 3")
+
+34
+00:02:39,115 --> 00:03:11,549
+133. closeBrowser()
+

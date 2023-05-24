@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suites_Curso_Katalon_parte2" time="95.491" tests="3" failures="2" errors="0">
+   <testsuite name="Suites_Curso_Katalon_parte2" tests="3" failures="2" errors="0" time="95.491" skipped="0" timestamp="2023-05-23 13:32:30" hostname="user - 192.168.1.21" id="Test Suites/Curso_De_Katalon/Suites_Curso_Katalon_parte2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_133219\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_133220"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_133219\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_133220\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - 192.168.1.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="07fc8438ceed7da0f32f7062ff04f75c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CursoKatalon/Rellenar_Formulario" time="29.13" classname="Test Cases/CursoKatalon/Rellenar_Formulario" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+"/>
+         <system-out><![CDATA[2023-05-23 13:32:31 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Rellenar_Formulario: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+
+
+2023-05-23 13:32:32 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:32:32 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:32:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:32:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:32:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:32:45 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-05-23 13:32:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-05-23 13:32:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:32:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:32:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rellenar_Formulario/Nombre"), Nombre): Text 'Alejandro' is set on object 'Object Repository/Rellenar_Formulario/Nombre'
+
+2023-05-23 13:32:59 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Rellenar_Formulario/Nombre'
+
+2023-05-23 13:32:59 - [TEST_STEP][FAILED] - delay(DelayLargo): Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+
+2023-05-23 13:33:00 - [MESSAGE][FAILED] - Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+
+2023-05-23 13:33:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:33:00 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[2023-05-23 13:32:31 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Rellenar_Formulario: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Test_TakeShoot" time="29.846" classname="Test Cases/CursoKatalon/Test_TakeShoot" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CursoKatalon/Test_TakeShoot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Test_TakeShoot.run(Test_TakeShoot:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.io.IOException: Destination 'C:\Users\aleja\git\practicaselenium\Imagenes' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:333)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-23 13:33:00 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Test_TakeShoot: Test Cases/CursoKatalon/Test_TakeShoot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Test_TakeShoot.run(Test_TakeShoot:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.io.IOException: Destination 'C:\Users\aleja\git\practicaselenium\Imagenes' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:333)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-23 13:33:00 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:33:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-23 13:33:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:33:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:33:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:33:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-05-23 13:33:09 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-05-23 13:33:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:33:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), "alejandro"): Text 'alejandro' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-23 13:33:19 - [MESSAGE][PASSED] - Text 'alejandro' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-23 13:33:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), 10): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName' is clickable
+
+2023-05-23 13:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName' is clickable
+
+2023-05-23 13:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), "canosa1@msn.com"): Text 'canosa1@msn.com' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:33:22 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:33:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), 10): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail' is clickable
+
+2023-05-23 13:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail' is clickable
+
+2023-05-23 13:33:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), "calle doctor esquerdo 56"): Text 'calle doctor esquerdo 56' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-23 13:33:23 - [MESSAGE][PASSED] - Text 'calle doctor esquerdo 56' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-23 13:33:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress' is clickable
+
+2023-05-23 13:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress' is clickable
+
+2023-05-23 13:33:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "calle doctor esquerdo 67"): Text 'calle doctor esquerdo 67' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-23 13:33:26 - [MESSAGE][PASSED] - Text 'calle doctor esquerdo 67' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-23 13:33:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress' is clickable
+
+2023-05-23 13:33:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:33:26 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress' is clickable
+
+2023-05-23 13:33:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit"), 0): Scroll to object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' successfully
+
+2023-05-23 13:33:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:33:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' successfully
+
+2023-05-23 13:33:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clickable
+
+2023-05-23 13:33:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:33:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clickable
+
+2023-05-23 13:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:33:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2")): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2' is visible
+
+2023-05-23 13:33:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2' is visible
+
+2023-05-23 13:33:29 - [TEST_STEP][FAILED] - takeScreenshot("C:\Users\aleja\git\practicaselenium\Imagenes\imagen1.png"): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Test_TakeShoot.run(Test_TakeShoot:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.io.IOException: Destination 'C:\Users\aleja\git\practicaselenium\Imagenes' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:333)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Script1684660520861.run(Script1684660520861.groovy:52)
+	... 13 more
+)
+
+2023-05-23 13:33:30 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Test_TakeShoot.run(Test_TakeShoot:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.io.IOException: Destination 'C:\Users\aleja\git\practicaselenium\Imagenes' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:333)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Script1684660520861.run(Script1684660520861.groovy:52)
+	... 13 more
+)
+
+2023-05-23 13:33:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:33:30 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[2023-05-23 13:33:00 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Test_TakeShoot: Test Cases/CursoKatalon/Test_TakeShoot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$7.call(Unknown Source)
+	at Test_TakeShoot.run(Test_TakeShoot:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.io.IOException: Destination 'C:\Users\aleja\git\practicaselenium\Imagenes' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:333)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="35.292" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 13:33:30 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 13:33:31 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:31 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:33:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:33:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-23 13:33:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:33:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:33:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:33:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:33:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:33:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 13:33:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 13:33:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 13:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 13:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 13:33:48 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 13:33:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'Canosa' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 13:33:50 - [MESSAGE][PASSED] - Text 'Canosa' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 13:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:33:51 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:33:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 13:33:53 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 13:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '45000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 13:33:54 - [MESSAGE][PASSED] - Text '45000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 13:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 13:33:56 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 13:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 13:33:59 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 13:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 13:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 13:34:01 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'Alejandro'
+
+2023-05-23 13:34:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'Alejandro'
+
+2023-05-23 13:34:03 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:34:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:34:04 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, "Alejandro", true): Actual text 'Alejandro' and expected text 'Alejandro' are matched  using regular expression
+
+2023-05-23 13:34:04 - [MESSAGE][PASSED] - Actual text 'Alejandro' and expected text 'Alejandro' are matched  using regular expression
+
+2023-05-23 13:34:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 13:34:06 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 13:34:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:34:06 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:34:06 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-23 13:32:30 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte2: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2023-05-23 13:32:30 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte2: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Rellenar_Formulario.run(Rellenar_Formulario:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684841540005.run(TempTestSuite1684841540005.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

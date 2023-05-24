@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NameALEJANDROEmailcanosa1msn.comCurrent_8ba139</name>
+   <tag></tag>
+   <elementGuidId>356c27ff-87c1-413f-aa07-b6b67fea5f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='output']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.border.col-md-12.col-sm-12</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9df4631b-3ac4-4a47-900c-ee0c9f854304</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border col-md-12 col-sm-12</value>
+      <webElementGuid>c51b42cb-0cdd-4c1b-840c-57d7adf81e9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name:ALEJANDROEmail:canosa1@msn.comCurrent Address :calle doctor esquerdo 180 Permananet Address :calle alfonso vii numero 7</value>
+      <webElementGuid>9d632973-95fd-4d6d-828d-9990e46caa7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;output&quot;)/div[@class=&quot;border col-md-12 col-sm-12&quot;]</value>
+      <webElementGuid>913ab03d-af47-41c3-915e-be7692c93034</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='output']/div</value>
+      <webElementGuid>de0caee6-a010-48a3-8a03-f9b1c02dfd76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::div[2]</value>
+      <webElementGuid>aab60086-ca99-4d0f-9485-ad8e29afeeca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permanent Address'])[1]/following::div[5]</value>
+      <webElementGuid>e8c8a9f4-8274-4f9b-bc0b-48d3f2a3d017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::div[8]</value>
+      <webElementGuid>da1bf3b5-0974-43fd-a0d5-15844f65092d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'output', '&quot;', ')/div[@class=', '&quot;', 'border col-md-12 col-sm-12', '&quot;', ']')])[1]/preceding::div[9]</value>
+      <webElementGuid>ae229cf4-1e40-4fe7-9f15-de4584c6fa07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[6]/div</value>
+      <webElementGuid>55f67ece-64dc-423a-b3ba-9873b0fc3484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Name:ALEJANDROEmail:canosa1@msn.comCurrent Address :calle doctor esquerdo 180 Permananet Address :calle alfonso vii numero 7' or . = 'Name:ALEJANDROEmail:canosa1@msn.comCurrent Address :calle doctor esquerdo 180 Permananet Address :calle alfonso vii numero 7')]</value>
+      <webElementGuid>3d8c8207-2fa8-47ff-a82d-e9584c91c332</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

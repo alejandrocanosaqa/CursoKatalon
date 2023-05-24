@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suites_Curso_Katalon_parte2" time="106.589" tests="3" failures="1" errors="0">
+   <testsuite name="Suites_Curso_Katalon_parte2" tests="3" failures="1" errors="0" time="106.589" skipped="0" timestamp="2023-05-23 13:50:37" hostname="user - 192.168.1.21" id="Test Suites/Curso_De_Katalon/Suites_Curso_Katalon_parte2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_135025\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_135025"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_135025\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_135025\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_135025\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_135025\\1684842687328.png, C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"/>
+         <property name="hostName" value="user - 192.168.1.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="1c8f8c81ed5aba7782de6bd1386365e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CursoKatalon/Rellenar_Formulario" time="48.48" classname="Test Cases/CursoKatalon/Rellenar_Formulario" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-23 13:50:39 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Rellenar_Formulario: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-23 13:50:40 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:50:40 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:50:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:50:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:50:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:50:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:50:53 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-05-23 13:50:57 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-05-23 13:50:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:50:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rellenar_Formulario/Nombre"), Nombre): Text 'Alejandro' is set on object 'Object Repository/Rellenar_Formulario/Nombre'
+
+2023-05-23 13:51:04 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Rellenar_Formulario/Nombre'
+
+2023-05-23 13:51:04 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rellenar_Formulario/Apellidos"), Apellidos): Text 'Canosa Ferreiro' is set on object 'Object Repository/Rellenar_Formulario/Apellidos'
+
+2023-05-23 13:51:07 - [MESSAGE][PASSED] - Text 'Canosa Ferreiro' is set on object 'Object Repository/Rellenar_Formulario/Apellidos'
+
+2023-05-23 13:51:07 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rellenar_Formulario/Email"), Email): Text 'cansa1@msn.com' is set on object 'Object Repository/Rellenar_Formulario/Email'
+
+2023-05-23 13:51:10 - [MESSAGE][PASSED] - Text 'cansa1@msn.com' is set on object 'Object Repository/Rellenar_Formulario/Email'
+
+2023-05-23 13:51:10 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Rellenar_Formulario/RadioButton_male")): Object 'Object Repository/Rellenar_Formulario/RadioButton_male' is clickable
+
+2023-05-23 13:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Rellenar_Formulario/RadioButton_male' is clickable
+
+2023-05-23 13:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Rellenar_Formulario/RadioButton_male")): Object: 'Object Repository/Rellenar_Formulario/RadioButton_male' is clicked on
+
+2023-05-23 13:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rellenar_Formulario/RadioButton_male' is clicked on
+
+2023-05-23 13:51:12 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rellenar_Formulario/Movil"), Movil): Text '667356734' is set on object 'Object Repository/Rellenar_Formulario/Movil'
+
+2023-05-23 13:51:14 - [MESSAGE][PASSED] - Text '667356734' is set on object 'Object Repository/Rellenar_Formulario/Movil'
+
+2023-05-23 13:51:14 - [TEST_STEP][PASSED] - TextoMovil = getText(findTestObject("Rellenar_Formulario/Movil")): Text of object 'Object Repository/Rellenar_Formulario/Movil' is: ''
+
+2023-05-23 13:51:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rellenar_Formulario/Movil' is: ''
+
+2023-05-23 13:51:15 - [TEST_STEP][PASSED] - verifyMatch("667356724", "(\+34|0034|34)?[ -]*(6|7)([0-9]){2}[ -]?(([0-9]){2}[ -]?([0-9]){2}[ -]?([0-9]){2}|([0-9]){3}[ -]?([0-9]){3})", true, CONTINUE_ON_FAILURE): Actual text '667356724' and expected text '(\+34|0034|34)?[ -]*(6|7)([0-9]){2}[ -]?(([0-9]){2}[ -]?([0-9]){2}[ -]?([0-9]){2}|([0-9]){3}[ -]?([0-9]){3})' are matched  using regular expression
+
+2023-05-23 13:51:15 - [MESSAGE][PASSED] - Actual text '667356724' and expected text '(\+34|0034|34)?[ -]*(6|7)([0-9]){2}[ -]?(([0-9]){2}[ -]?([0-9]){2}[ -]?([0-9]){2}|([0-9]){3}[ -]?([0-9]){3})' are matched  using regular expression
+
+2023-05-23 13:51:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-23 13:51:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Rellenar_Formulario/Cumpleaños")): Object: 'Object Repository/Rellenar_Formulario/Cumpleaños' is clicked on
+
+2023-05-23 13:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rellenar_Formulario/Cumpleaños' is clicked on
+
+2023-05-23 13:51:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-23 13:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Rellenar_Formulario/Mes"), "10", false): All options with value '10' are selected in object 'Object Repository/Rellenar_Formulario/Mes' 
+
+2023-05-23 13:51:19 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Rellenar_Formulario/Mes' 
+
+2023-05-23 13:51:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Rellenar_Formulario/Año"), "1977", false): All options with value '1977' are selected in object 'Object Repository/Rellenar_Formulario/Año' 
+
+2023-05-23 13:51:20 - [MESSAGE][PASSED] - All options with value '1977' are selected in object 'Object Repository/Rellenar_Formulario/Año' 
+
+2023-05-23 13:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Rellenar_Formulario/Dia")): Object: 'Object Repository/Rellenar_Formulario/Dia' is clicked on
+
+2023-05-23 13:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rellenar_Formulario/Dia' is clicked on
+
+2023-05-23 13:51:21 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Rellenar_Formulario/Asunto"), CONTINUE_ON_FAILURE): Object 'Object Repository/Rellenar_Formulario/Asunto' is clickable
+
+2023-05-23 13:51:22 - [MESSAGE][PASSED] - Object 'Object Repository/Rellenar_Formulario/Asunto' is clickable
+
+2023-05-23 13:51:22 - [TEST_STEP][PASSED] - click(findTestObject("Rellenar_Formulario/Asunto")): Object: 'Object Repository/Rellenar_Formulario/Asunto' is clicked on
+
+2023-05-23 13:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rellenar_Formulario/Asunto' is clicked on
+
+2023-05-23 13:51:23 - [TEST_STEP][PASSED] - comment("No permite escribir en este elemento"): No permite escribir en este elemento
+
+2023-05-23 13:51:23 - [MESSAGE][INFO] - No permite escribir en este elemento
+
+2023-05-23 13:51:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-23 13:51:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Rellenar_Formulario/Sports"), CONTINUE_ON_FAILURE): Object 'Object Repository/Rellenar_Formulario/Sports' is clickable
+
+2023-05-23 13:51:24 - [MESSAGE][PASSED] - Object 'Object Repository/Rellenar_Formulario/Sports' is clickable
+
+2023-05-23 13:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Rellenar_Formulario/Sports")): Object: 'Object Repository/Rellenar_Formulario/Sports' is clicked on
+
+2023-05-23 13:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rellenar_Formulario/Sports' is clicked on
+
+2023-05-23 13:51:25 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:26 - [TEST_STEP][FAILED] - uploadFile(findTestObject("Rellenar_Formulario/Subir_Archivo"), "C:\Users\aleja\Imagenes\imagen.png"): Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Script1684583507728.run(Script1684583507728.groovy:79)
+	... 13 more
+)
+
+2023-05-23 13:51:27 - [MESSAGE][FAILED] - Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Script1684583507728.run(Script1684583507728.groovy:79)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_135025\\Curso_De_Katalon\\Suites_Curso_Katalon_parte2\\20230523_135025\\1684842687328.png]]
+
+2023-05-23 13:51:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:51:27 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:27 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:27 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[2023-05-23 13:50:39 - [TEST_CASE][FAILED] - Test Cases/CursoKatalon/Rellenar_Formulario: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="26.483" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 13:51:27 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 13:51:28 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:28 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:51:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-23 13:51:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:51:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:51:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:51:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:51:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:51:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 13:51:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 13:51:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 13:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 13:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 13:51:41 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 13:51:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'Canosa' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 13:51:42 - [MESSAGE][PASSED] - Text 'Canosa' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 13:51:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:51:43 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 13:51:45 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 13:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '45000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 13:51:46 - [MESSAGE][PASSED] - Text '45000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 13:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 13:51:47 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 13:51:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 13:51:50 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 13:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 13:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 13:51:51 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'Alejandro'
+
+2023-05-23 13:51:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'Alejandro'
+
+2023-05-23 13:51:51 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 13:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 13:51:52 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, "Alejandro", true): Actual text 'Alejandro' and expected text 'Alejandro' are matched  using regular expression
+
+2023-05-23 13:51:52 - [MESSAGE][PASSED] - Actual text 'Alejandro' and expected text 'Alejandro' are matched  using regular expression
+
+2023-05-23 13:51:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 13:51:54 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 13:51:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:51:54 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:54 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Test_TakeShoot" time="30.312" classname="Test Cases/CursoKatalon/Test_TakeShoot" status="PASSED">
+         <system-out><![CDATA[2023-05-23 13:51:54 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Test_TakeShoot: Test Cases/CursoKatalon/Test_TakeShoot
+
+2023-05-23 13:51:54 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:54 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:51:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 13:51:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 13:51:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 13:52:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 13:52:00 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-05-23 13:52:04 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-05-23 13:52:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 13:52:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 13:52:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), "alejandro"): Text 'alejandro' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-23 13:52:11 - [MESSAGE][PASSED] - Text 'alejandro' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-23 13:52:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), 10): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName' is clickable
+
+2023-05-23 13:52:13 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName' is clickable
+
+2023-05-23 13:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), "canosa1@msn.com"): Text 'canosa1@msn.com' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:52:14 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 13:52:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), 10): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail' is clickable
+
+2023-05-23 13:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail' is clickable
+
+2023-05-23 13:52:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), "calle doctor esquerdo 56"): Text 'calle doctor esquerdo 56' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-23 13:52:16 - [MESSAGE][PASSED] - Text 'calle doctor esquerdo 56' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-23 13:52:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress' is clickable
+
+2023-05-23 13:52:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress' is clickable
+
+2023-05-23 13:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "calle doctor esquerdo 67"): Text 'calle doctor esquerdo 67' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-23 13:52:18 - [MESSAGE][PASSED] - Text 'calle doctor esquerdo 67' is set on object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-23 13:52:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress' is clickable
+
+2023-05-23 13:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:52:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress' is clickable
+
+2023-05-23 13:52:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit"), 0): Scroll to object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' successfully
+
+2023-05-23 13:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:52:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' successfully
+
+2023-05-23 13:52:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clickable
+
+2023-05-23 13:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 13:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clickable
+
+2023-05-23 13:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 13:52:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2")): Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2' is visible
+
+2023-05-23 13:52:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2' is visible
+
+2023-05-23 13:52:22 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"): Taking screenshot successfully
+
+2023-05-23 13:52:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png]]
+
+2023-05-23 13:52:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 13:52:24 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 13:52:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 13:52:24 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 13:52:24 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-23 13:50:37 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte2: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-23 13:50:37 - [TEST_SUITE][FAILED] - Suites_Curso_Katalon_parte2: Test Cases/CursoKatalon/Rellenar_Formulario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\aleja\Imagenes\imagen.png' to object 'Object Repository/Rellenar_Formulario/Subir_Archivo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Rellenar_Formulario.run(Rellenar_Formulario:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684842625887.run(TempTestSuite1684842625887.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\aleja\Imagenes\imagen.png
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-95PMMAL', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff01a4f89b7c97fddcc7922224e8c9c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

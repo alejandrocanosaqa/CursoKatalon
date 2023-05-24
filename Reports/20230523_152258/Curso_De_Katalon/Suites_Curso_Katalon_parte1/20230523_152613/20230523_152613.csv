@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte1,Firefox 113.0,,,2023-05-23 15:26:24,2023-05-23 15:27:36,"1m - 12,084s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Doble_click,Firefox 113.0,,,2023-05-23 15:26:25,2023-05-23 15:26:49,"23,449s",PASSED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 15:26:25,2023-05-23 15:26:25,"0,083s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 15:26:27,2023-05-23 15:26:39,"11,529s",PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"")",Firefox 113.0,,,2023-05-23 15:26:39,2023-05-23 15:26:41,"2,049s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 15:26:41,2023-05-23 15:26:41,"0,174s",PASSED
+"click(findTestObject(""Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/button_Accept and Close""))",Firefox 113.0,,,2023-05-23 15:26:41,2023-05-23 15:26:43,"2,005s",PASSED
+waitForPageLoad(60),Firefox 113.0,,,2023-05-23 15:26:43,2023-05-23 15:26:44,"1,216s",PASSED
+"click(findTestObject(""Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7""))",Firefox 113.0,,,2023-05-23 15:26:44,2023-05-23 15:26:45,"1,025s",PASSED
+"verifyElementClickable(findTestObject(""Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7""))",Firefox 113.0,,,2023-05-23 15:26:45,2023-05-23 15:26:46,"0,515s",PASSED
+"click(findTestObject(""Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtMinus rtM_4103a7""))",Firefox 113.0,,,2023-05-23 15:26:46,2023-05-23 15:26:46,"0,689s",PASSED
+"doubleClick(findTestObject(""Object Repository/Doble_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_WebForms TreeView Overview_rtPlus rtPlusHover""))",Firefox 113.0,,,2023-05-23 15:26:46,2023-05-23 15:26:47,"0,805s",PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-23 15:26:47,2023-05-23 15:26:49,"1,747s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 15:26:49,2023-05-23 15:26:49,"0,002s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 15:26:49,2023-05-23 15:26:49,"0,002s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Drog_and_Drag,Firefox 113.0,,,2023-05-23 15:26:49,2023-05-23 15:27:36,"47,531s",FAILED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 15:26:49,2023-05-23 15:26:49,"0,001s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 15:26:50,2023-05-23 15:26:55,"5,479s",PASSED
+"navigateToUrl(""https://www.globalsqa.com/demo-site/draganddrop/"")",Firefox 113.0,,,2023-05-23 15:26:55,2023-05-23 15:27:03,"7,562s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 15:27:03,2023-05-23 15:27:03,"0,125s",PASSED
+waitForPageLoad(10),Firefox 113.0,,,2023-05-23 15:27:03,2023-05-23 15:27:03,"0,139s",PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drog_and_Drag/Elemento1""), findTestObject(""Object Repository/Drog_and_Drag/Contenedor""))",Firefox 113.0,,,2023-05-23 15:27:03,2023-05-23 15:27:36,"33,081s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 15:27:36,2023-05-23 15:27:36,"0,000s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 15:27:36,2023-05-23 15:27:36,"0,001s",PASSED

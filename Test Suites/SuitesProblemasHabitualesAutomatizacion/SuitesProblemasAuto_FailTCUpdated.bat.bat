@@ -1,1 +1,1 @@
-katalon -noSplash  -runMode=console -projectPath="C:\Users\aleja\Katalon Studio\practicaselenium\practicaselenium.prj" -retry=0 -testSuitePath="Test Suites/SuitesProblemasHabitualesAutomatizacion/SuitesProblemasAuto_20230522_010557" -executionProfile="DelayCorto" -browserType="Chrome"
+katalon -noSplash  -runMode=console -projectPath="C:\Users\user\Katalon Studio\CursoKatalon-master\practicaselenium.prj" -retry=0 -testSuitePath="" -executionProfile="DelayCorto" -browserType="Firefox"

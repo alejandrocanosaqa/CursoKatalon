@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte2,,,,2023-05-23 16:15:55,2023-05-23 16:16:15,"19,580s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Rellenar_Formulario,,,,2023-05-23 16:15:57,2023-05-23 16:16:09,"11,829s",FAILED
+Start listener action : executeRows,,,,2023-05-23 16:15:58,2023-05-23 16:15:59,"0,297s",PASSED
+"openBrowser("""")",,,,2023-05-23 16:16:02,2023-05-23 16:16:09,"6,562s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 16:16:09,2023-05-23 16:16:09,"0,001s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 16:16:09,2023-05-23 16:16:09,"0,011s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Variables_simples,,,,2023-05-23 16:16:09,2023-05-23 16:16:13,"4,451s",FAILED
+Start listener action : executeRows,,,,2023-05-23 16:16:10,2023-05-23 16:16:10,"0,012s",PASSED
+"openBrowser("""")",,,,2023-05-23 16:16:13,2023-05-23 16:16:13,"0,138s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 16:16:13,2023-05-23 16:16:13,"0,001s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 16:16:13,2023-05-23 16:16:13,"0,002s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Test_TakeShoot,,,,2023-05-23 16:16:13,2023-05-23 16:16:15,"1,531s",FAILED
+Start listener action : executeRows,,,,2023-05-23 16:16:13,2023-05-23 16:16:13,"0,002s",PASSED
+"openBrowser("""")",,,,2023-05-23 16:16:15,2023-05-23 16:16:15,"0,131s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 16:16:15,2023-05-23 16:16:15,"0,000s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 16:16:15,2023-05-23 16:16:15,"0,001s",PASSED

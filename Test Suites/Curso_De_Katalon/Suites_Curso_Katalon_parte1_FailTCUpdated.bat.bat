@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\user\Katalon Studio\CursoKatalon-master\practicaselenium.prj" -retry=0 -testSuitePath="" -executionProfile="DelayLargo" -browserType="Firefox"

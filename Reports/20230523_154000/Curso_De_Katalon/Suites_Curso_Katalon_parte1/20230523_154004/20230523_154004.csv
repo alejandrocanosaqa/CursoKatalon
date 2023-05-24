@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte1,,,,2023-05-23 15:40:21,2023-05-23 15:40:39,"17,858s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/AccionesconElRaton,,,,2023-05-23 15:40:23,2023-05-23 15:40:32,"9,198s",FAILED
+Start listener action : executeRows,,,,2023-05-23 15:40:23,2023-05-23 15:40:23,"0,123s",PASSED
+"openBrowser("""")",,,,2023-05-23 15:40:25,2023-05-23 15:40:32,"6,450s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 15:40:32,2023-05-23 15:40:32,"0,002s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 15:40:32,2023-05-23 15:40:32,"0,003s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Doble_click,,,,2023-05-23 15:40:32,2023-05-23 15:40:34,"2,204s",FAILED
+Start listener action : executeRows,,,,2023-05-23 15:40:32,2023-05-23 15:40:32,"0,003s",PASSED
+"openBrowser("""")",,,,2023-05-23 15:40:34,2023-05-23 15:40:34,"0,422s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 15:40:34,2023-05-23 15:40:34,"0,001s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 15:40:34,2023-05-23 15:40:34,"0,002s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Drog_and_Drag,,,,2023-05-23 15:40:34,2023-05-23 15:40:37,"2,696s",FAILED
+Start listener action : executeRows,,,,2023-05-23 15:40:34,2023-05-23 15:40:34,"0,003s",PASSED
+"openBrowser("""")",,,,2023-05-23 15:40:36,2023-05-23 15:40:37,"0,573s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 15:40:37,2023-05-23 15:40:37,"0,001s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 15:40:37,2023-05-23 15:40:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/EsperaExplicita,,,,2023-05-23 15:40:37,2023-05-23 15:40:39,"1,976s",FAILED
+Start listener action : executeRows,,,,2023-05-23 15:40:37,2023-05-23 15:40:37,"0,001s",PASSED
+"openBrowser("""")",,,,2023-05-23 15:40:39,2023-05-23 15:40:39,"0,108s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 15:40:39,2023-05-23 15:40:39,"0,000s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 15:40:39,2023-05-23 15:40:39,"0,001s",PASSED

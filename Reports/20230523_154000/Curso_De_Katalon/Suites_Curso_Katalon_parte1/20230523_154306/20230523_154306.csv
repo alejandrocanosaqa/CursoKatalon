@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte1,Chrome 113.0.0.0,,,2023-05-23 15:43:18,2023-05-23 15:43:29,"11,724s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Drog_and_Drag,Chrome 113.0.0.0,,,2023-05-23 15:43:19,2023-05-23 15:43:29,"10,585s",FAILED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-23 15:43:19,2023-05-23 15:43:19,"0,080s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-23 15:43:21,2023-05-23 15:43:28,"7,348s",PASSED
+"navigateToUrl(""https://www.globalsqa.com/demo-site/draganddrop/"")",Chrome 113.0.0.0,,,2023-05-23 15:43:28,2023-05-23 15:43:29,"0,898s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-23 15:43:29,2023-05-23 15:43:29,"0,002s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-23 15:43:29,2023-05-23 15:43:29,"0,003s",PASSED

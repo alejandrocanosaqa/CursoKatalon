@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Suites_Curso_Katalon_parte1,Chrome 113.0.0.0,,,2023-05-23 12:33:59,2023-05-23 12:35:10,""1m - 11,203s"",FAILED"
+,,,,,,,
+"Test Cases/CursoKatalon/Drog_and_Drag,Chrome 113.0.0.0,,,2023-05-23 12:34:00,2023-05-23 12:34:52,""52,116s"",FAILED"
+"Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-23 12:34:00,2023-05-23 12:34:00,""0,094s"",PASSED"
+"openBrowser(""""),Chrome 113.0.0.0,,,2023-05-23 12:34:02,2023-05-23 12:34:12,""9,661s"",PASSED"
+"navigateToUrl(""https://www.globalsqa.com/demo-site/draganddrop/""),Chrome 113.0.0.0,,,2023-05-23 12:34:12,2023-05-23 12:34:18,""6,243s"",PASSED"
+"maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 12:34:18,2023-05-23 12:34:19,""1,037s"",PASSED"
+"waitForPageLoad(10),Chrome 113.0.0.0,,,2023-05-23 12:34:19,2023-05-23 12:34:20,""1,019s"",PASSED"
+"dragAndDropToObject(findTestObject(""Object Repository/Drog_and_Drag/Elemento1""), findTestObject(""Object Repository/Drog_and_Drag/Contenedor"")),Chrome 113.0.0.0,,,2023-05-23 12:34:20,2023-05-23 12:34:52,""32,130s"",FAILED"
+"Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-23 12:34:52,2023-05-23 12:34:52,""0,007s"",PASSED"
+"Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-23 12:34:52,2023-05-23 12:34:52,""0,012s"",PASSED"

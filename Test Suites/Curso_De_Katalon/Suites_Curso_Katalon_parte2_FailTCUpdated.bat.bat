@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\user\Katalon Studio\CursoKatalon-master\practicaselenium.prj" -retry=0 -testSuitePath="Test Suites/Curso_De_Katalon/Suites_Curso_Katalon_parte2_20230523_162047" -executionProfile="default" -browserType="Edge_chromium"

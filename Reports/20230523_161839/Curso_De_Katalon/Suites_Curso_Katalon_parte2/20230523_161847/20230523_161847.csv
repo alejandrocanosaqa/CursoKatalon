@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte2,Firefox 113.0,,,2023-05-23 16:19:02,2023-05-23 16:21:23,"2m - 21,515s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Rellenar_Formulario,Firefox 113.0,,,2023-05-23 16:19:04,2023-05-23 16:20:15,"1m - 10,874s",PASSED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 16:19:05,2023-05-23 16:19:05,"0,128s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 16:19:10,2023-05-23 16:19:37,"27,332s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 113.0,,,2023-05-23 16:19:37,2023-05-23 16:19:42,"4,683s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 16:19:42,2023-05-23 16:19:42,"0,145s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Nombre""), Nombre)",Firefox 113.0,,,2023-05-23 16:19:42,2023-05-23 16:19:44,"1,719s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:19:44,2023-05-23 16:19:45,"1,644s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Apellidos""), Apellidos)",Firefox 113.0,,,2023-05-23 16:19:45,2023-05-23 16:19:46,"1,012s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:19:46,2023-05-23 16:19:47,"1,016s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Email""), Email)",Firefox 113.0,,,2023-05-23 16:19:47,2023-05-23 16:19:49,"1,744s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:19:49,2023-05-23 16:19:50,"1,024s",PASSED
+"verifyElementClickable(findTestObject(""Rellenar_Formulario/RadioButton_male""))",Firefox 113.0,,,2023-05-23 16:19:50,2023-05-23 16:19:51,"1,199s",PASSED
+"click(findTestObject(""Rellenar_Formulario/RadioButton_male""))",Firefox 113.0,,,2023-05-23 16:19:51,2023-05-23 16:19:52,"1,153s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:19:52,2023-05-23 16:19:53,"1,026s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Movil""), Movil)",Firefox 113.0,,,2023-05-23 16:19:53,2023-05-23 16:19:55,"1,321s",PASSED
+"TextoMovil = getText(findTestObject(""Rellenar_Formulario/Movil""))",Firefox 113.0,,,2023-05-23 16:19:55,2023-05-23 16:19:56,"0,820s",PASSED
+"verifyMatch(""667356724"", ""(\+34|0034|34)?[ -]*(6|7)([0-9]){2}[ -]?(([0-9]){2}[ -]?([0-9]){2}[ -]?([0-9]){2}|([0-9]){3}[ -]?([0-9]){3})"", true, CONTINUE_ON_FAILURE)",Firefox 113.0,,,2023-05-23 16:19:56,2023-05-23 16:19:56,"0,257s",PASSED
+delay(1),Firefox 113.0,,,2023-05-23 16:19:56,2023-05-23 16:19:57,"1,038s",PASSED
+"click(findTestObject(""Rellenar_Formulario/Cumpleaños""))",Firefox 113.0,,,2023-05-23 16:19:57,2023-05-23 16:19:59,"1,566s",PASSED
+delay(1),Firefox 113.0,,,2023-05-23 16:19:59,2023-05-23 16:20:00,"1,012s",PASSED
+"selectOptionByValue(findTestObject(""Rellenar_Formulario/Mes""), ""10"", false)",Firefox 113.0,,,2023-05-23 16:20:00,2023-05-23 16:20:01,"1,552s",PASSED
+"selectOptionByValue(findTestObject(""Rellenar_Formulario/Año""), ""1977"", false)",Firefox 113.0,,,2023-05-23 16:20:01,2023-05-23 16:20:02,"1,208s",PASSED
+"click(findTestObject(""Rellenar_Formulario/Dia""))",Firefox 113.0,,,2023-05-23 16:20:02,2023-05-23 16:20:03,"0,848s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:20:03,2023-05-23 16:20:04,"1,023s",PASSED
+"verifyElementClickable(findTestObject(""Rellenar_Formulario/Asunto""), CONTINUE_ON_FAILURE)",Firefox 113.0,,,2023-05-23 16:20:04,2023-05-23 16:20:05,"0,574s",PASSED
+"click(findTestObject(""Rellenar_Formulario/Asunto""))",Firefox 113.0,,,2023-05-23 16:20:05,2023-05-23 16:20:06,"0,869s",PASSED
+"comment(""No permite escribir en este elemento"")",Firefox 113.0,,,2023-05-23 16:20:06,2023-05-23 16:20:06,"0,035s",PASSED
+delay(1),Firefox 113.0,,,2023-05-23 16:20:06,2023-05-23 16:20:07,"1,009s",PASSED
+"verifyElementClickable(findTestObject(""Rellenar_Formulario/Sports""), CONTINUE_ON_FAILURE)",Firefox 113.0,,,2023-05-23 16:20:07,2023-05-23 16:20:08,"0,878s",PASSED
+"click(findTestObject(""Rellenar_Formulario/Sports""))",Firefox 113.0,,,2023-05-23 16:20:08,2023-05-23 16:20:08,"0,804s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:20:08,2023-05-23 16:20:09,"1,009s",PASSED
+"uploadFile(findTestObject(""Rellenar_Formulario/Subir_Archivo""), ""C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"")",Firefox 113.0,,,2023-05-23 16:20:09,2023-05-23 16:20:10,"0,584s",PASSED
+"scrollToElement(findTestObject(""Rellenar_Formulario/Direccion""), 0)",Firefox 113.0,,,2023-05-23 16:20:10,2023-05-23 16:20:11,"0,729s",PASSED
+"click(findTestObject(""Rellenar_Formulario/Direccion""))",Firefox 113.0,,,2023-05-23 16:20:11,2023-05-23 16:20:11,"0,818s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Direccion""), ""Calle alfonso VII numero 7 3"")",Firefox 113.0,,,2023-05-23 16:20:11,2023-05-23 16:20:13,"1,244s",PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-23 16:20:13,2023-05-23 16:20:15,"1,893s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 16:20:15,2023-05-23 16:20:15,"0,004s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 16:20:15,2023-05-23 16:20:15,"0,006s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Variables_simples,Firefox 113.0,,,2023-05-23 16:20:15,2023-05-23 16:20:52,"36,876s",PASSED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 16:20:16,2023-05-23 16:20:16,"0,009s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 16:20:20,2023-05-23 16:20:30,"10,342s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 16:20:30,2023-05-23 16:20:30,"0,031s",PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Firefox 113.0,,,2023-05-23 16:20:30,2023-05-23 16:20:35,"4,897s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Add""))",Firefox 113.0,,,2023-05-23 16:20:35,2023-05-23 16:20:36,"1,539s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName""), Nombre)",Firefox 113.0,,,2023-05-23 16:20:36,2023-05-23 16:20:38,"1,107s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName""), Apellido)",Firefox 113.0,,,2023-05-23 16:20:38,2023-05-23 16:20:39,"0,998s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail""), Email)",Firefox 113.0,,,2023-05-23 16:20:39,2023-05-23 16:20:40,"1,385s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Age_age""), Edad)",Firefox 113.0,,,2023-05-23 16:20:40,2023-05-23 16:20:41,"1,051s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary""), Salario)",Firefox 113.0,,,2023-05-23 16:20:41,2023-05-23 16:20:42,"1,214s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Department_department""), Departamento)",Firefox 113.0,,,2023-05-23 16:20:42,2023-05-23 16:20:43,"1,146s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Submit""))",Firefox 113.0,,,2023-05-23 16:20:43,2023-05-23 16:20:45,"1,148s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox""), TextoaBuscar)",Firefox 113.0,,,2023-05-23 16:20:45,2023-05-23 16:20:46,"1,031s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/svg""))",Firefox 113.0,,,2023-05-23 16:20:46,2023-05-23 16:20:46,"0,809s",PASSED
+"textoBuscado = getText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/div_alejandro""), CONTINUE_ON_FAILURE)",Firefox 113.0,,,2023-05-23 16:20:46,2023-05-23 16:20:47,"0,737s",PASSED
+delay(DelayCorto),Firefox 113.0,,,2023-05-23 16:20:47,2023-05-23 16:20:48,"1,017s",PASSED
+"verifyMatch(TextoaBuscar, ""Alejandro"", true)",Firefox 113.0,,,2023-05-23 16:20:48,2023-05-23 16:20:48,"0,012s",PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-23 16:20:48,2023-05-23 16:20:52,"3,457s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 16:20:52,2023-05-23 16:20:52,"0,005s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 16:20:52,2023-05-23 16:20:52,"0,005s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Test_TakeShoot,Firefox 113.0,,,2023-05-23 16:20:52,2023-05-23 16:21:23,"31,794s",PASSED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 16:20:52,2023-05-23 16:20:52,"0,001s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 16:20:54,2023-05-23 16:21:03,"8,883s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Firefox 113.0,,,2023-05-23 16:21:03,2023-05-23 16:21:06,"3,238s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 16:21:06,2023-05-23 16:21:06,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), ""alejandro"")",Firefox 113.0,,,2023-05-23 16:21:06,2023-05-23 16:21:11,"5,129s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), 10)",Firefox 113.0,,,2023-05-23 16:21:11,2023-05-23 16:21:13,"1,875s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), ""canosa1@msn.com"")",Firefox 113.0,,,2023-05-23 16:21:13,2023-05-23 16:21:14,"1,019s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), 10)",Firefox 113.0,,,2023-05-23 16:21:14,2023-05-23 16:21:15,"0,720s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), ""calle doctor esquerdo 56"")",Firefox 113.0,,,2023-05-23 16:21:15,2023-05-23 16:21:16,"1,421s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), 0)",Firefox 113.0,,,2023-05-23 16:21:16,2023-05-23 16:21:17,"0,823s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""calle doctor esquerdo 67"")",Firefox 113.0,,,2023-05-23 16:21:17,2023-05-23 16:21:18,"0,900s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), 0)",Firefox 113.0,,,2023-05-23 16:21:18,2023-05-23 16:21:18,"0,642s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Firefox 113.0,,,2023-05-23 16:21:18,2023-05-23 16:21:19,"0,584s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Firefox 113.0,,,2023-05-23 16:21:19,2023-05-23 16:21:20,"0,553s",PASSED
+"click(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""))",Firefox 113.0,,,2023-05-23 16:21:20,2023-05-23 16:21:21,"0,985s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2""))",Firefox 113.0,,,2023-05-23 16:21:21,2023-05-23 16:21:21,"0,636s",PASSED
+"takeScreenshot(""C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"")",Firefox 113.0,,,2023-05-23 16:21:21,2023-05-23 16:21:22,"0,842s",PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-23 16:21:22,2023-05-23 16:21:23,"1,376s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 16:21:23,2023-05-23 16:21:23,"0,000s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 16:21:23,2023-05-23 16:21:23,"0,001s",PASSED

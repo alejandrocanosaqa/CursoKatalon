@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuitesProblemasAuto,,,,2023-05-23 14:31:59,2023-05-23 14:36:15,"4m - 16,355s",ERROR
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnElemento,,,,2023-05-23 14:32:22,2023-05-23 14:33:22,"59,505s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:32:22,2023-05-23 14:32:25,"2,327s",PASSED
+"openBrowser("""")",,,,2023-05-23 14:32:41,2023-05-23 14:33:18,"36,654s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:33:20,2023-05-23 14:33:21,"0,899s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:33:21,2023-05-23 14:33:21,"0,136s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/EscribirEnElemento,,,,2023-05-23 14:33:22,2023-05-23 14:33:55,"32,851s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:33:22,2023-05-23 14:33:22,"0,004s",PASSED
+"comment(""Practica nivel 2"")",,,,2023-05-23 14:33:43,2023-05-23 14:33:47,"3,562s",PASSED
+"setText(findTestObject(""AllTestLevel/Textbox_nivel2""), ""selenium"")",,,,2023-05-23 14:33:47,2023-05-23 14:33:54,"7,907s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:33:55,2023-05-23 14:33:55,"0,049s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:33:55,2023-05-23 14:33:55,"0,109s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ObtenerTextoDeElemento,,,,2023-05-23 14:33:55,2023-05-23 14:34:09,"13,906s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:33:55,2023-05-23 14:33:55,"0,009s",PASSED
+"comment(""Pratica nivel 3"")",,,,2023-05-23 14:34:06,2023-05-23 14:34:06,"0,141s",PASSED
+"Texto_label = getText(findTestObject(""AllTestLevel/Label_nivel3""))",,,,2023-05-23 14:34:06,2023-05-23 14:34:09,"3,251s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:34:09,2023-05-23 14:34:09,"0,005s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:34:09,2023-05-23 14:34:09,"0,025s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnMultiplesElementos,,,,2023-05-23 14:34:09,2023-05-23 14:34:54,"44,790s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:34:09,2023-05-23 14:34:09,"0,006s",PASSED
+"comment(""Practica nivel 4"")",,,,2023-05-23 14:34:29,2023-05-23 14:34:30,"1,730s",PASSED
+"waitForElementClickable(findTestObject(""AllTestLevel/Boton1_nivel4""), DelayCorto)",,,,2023-05-23 14:34:30,2023-05-23 14:34:53,"23,104s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:34:54,2023-05-23 14:34:54,"0,031s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:34:54,2023-05-23 14:34:54,"0,077s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/ClickEnEnlace,,,,2023-05-23 14:34:55,2023-05-23 14:35:15,"20,858s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:34:55,2023-05-23 14:34:55,"0,013s",PASSED
+"comment(""Practica nivel 5"")",,,,2023-05-23 14:35:09,2023-05-23 14:35:09,"0,488s",PASSED
+"click(findTestObject(""AllTestLevel/Enlace_nivel5""))",,,,2023-05-23 14:35:09,2023-05-23 14:35:15,"5,652s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:35:15,2023-05-23 14:35:15,"0,036s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:35:15,2023-05-23 14:35:15,"0,039s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/Ejecucion_Codigo_Javascript,,,,2023-05-23 14:35:16,2023-05-23 14:35:36,"20,543s",ERROR
+Start listener action : executeRows,,,,2023-05-23 14:35:16,2023-05-23 14:35:17,"0,287s",PASSED
+"comment(""Practica 6"")",,,,2023-05-23 14:35:32,2023-05-23 14:35:33,"0,312s",PASSED
+"testObj = findTestObject(""AllTestLevel/BotonOculto"")",,,,2023-05-23 14:35:33,2023-05-23 14:35:36,"3,301s",PASSED
+"BotonOculto = findWebElement(testObj, 5)",,,,2023-05-23 14:35:36,2023-05-23 14:35:36,"0,182s",ERROR
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:35:36,2023-05-23 14:35:36,"0,009s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:35:36,2023-05-23 14:35:36,"0,058s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/EscribirTextoEnVentanaAlerta,,,,2023-05-23 14:35:37,2023-05-23 14:35:50,"12,960s",ERROR
+Start listener action : executeRows,,,,2023-05-23 14:35:37,2023-05-23 14:35:37,"0,002s",PASSED
+"comment(""Practica Nivel 8"")",,,,2023-05-23 14:35:49,2023-05-23 14:35:49,"0,344s",PASSED
+driver = getWebDriver(),,,,2023-05-23 14:35:49,2023-05-23 14:35:50,"0,555s",ERROR
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:35:50,2023-05-23 14:35:50,"0,008s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:35:50,2023-05-23 14:35:50,"0,025s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/CopiarTextoDeUnaVentanaAOtra,,,,2023-05-23 14:35:50,2023-05-23 14:35:58,"7,932s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:35:51,2023-05-23 14:35:51,"0,001s",PASSED
+"comment(""Practica 9"")",,,,2023-05-23 14:35:56,2023-05-23 14:35:57,"0,467s",PASSED
+IndiceVentanaActual = getWindowIndex(),,,,2023-05-23 14:35:57,2023-05-23 14:35:58,"0,892s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:35:58,2023-05-23 14:35:58,"0,057s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:35:58,2023-05-23 14:35:58,"0,049s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/CopiarUnElementoDentroDeOtro,,,,2023-05-23 14:35:58,2023-05-23 14:36:10,"12,258s",ERROR
+Start listener action : executeRows,,,,2023-05-23 14:35:58,2023-05-23 14:35:58,"0,004s",PASSED
+"comment(""Practica 10"")",,,,2023-05-23 14:36:08,2023-05-23 14:36:09,"1,073s",PASSED
+"Sourcelevel10 = By.id(""source"")",,,,2023-05-23 14:36:09,2023-05-23 14:36:09,"0,186s",PASSED
+"Targetlevel10 = By.id(""target"")",,,,2023-05-23 14:36:09,2023-05-23 14:36:09,"0,001s",PASSED
+driver = getWebDriver(),,,,2023-05-23 14:36:09,2023-05-23 14:36:10,"0,614s",ERROR
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:36:10,2023-05-23 14:36:10,"0,031s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:36:10,2023-05-23 14:36:10,"0,143s",PASSED
+,,,,,,,
+Test Cases/SolucionEnscriptsIndividuales/VerificacionApareceTexto,,,,2023-05-23 14:36:11,2023-05-23 14:36:15,"3,984s",FAILED
+Start listener action : executeRows,,,,2023-05-23 14:36:12,2023-05-23 14:36:12,"0,002s",PASSED
+"verifyElementText(findTestObject(""AllTestLevel/TextoFinalPractica""), ""¡Enhorabuena! Has llegado al final de la práctica"")",,,,2023-05-23 14:36:14,2023-05-23 14:36:15,"1,006s",FAILED
+Start listener action : sampleAfterTestCase,,,,2023-05-23 14:36:15,2023-05-23 14:36:15,"0,000s",PASSED
+Start listener action : addFailedTCToList,,,,2023-05-23 14:36:15,2023-05-23 14:36:15,"0,001s",PASSED

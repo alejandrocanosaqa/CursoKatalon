@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte2,Edge Chromium 113,,,2023-05-23 16:19:01,2023-05-23 16:20:47,"1m - 45,977s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Rellenar_Formulario,Edge Chromium 113,,,2023-05-23 16:19:03,2023-05-23 16:19:36,"33,197s",FAILED
+Start listener action : executeRows,Edge Chromium 113,,,2023-05-23 16:19:04,2023-05-23 16:19:04,"0,143s",PASSED
+"openBrowser("""")",Edge Chromium 113,,,2023-05-23 16:19:09,2023-05-23 16:19:22,"13,230s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Edge Chromium 113,,,2023-05-23 16:19:22,2023-05-23 16:19:27,"5,579s",PASSED
+maximizeWindow(),Edge Chromium 113,,,2023-05-23 16:19:27,2023-05-23 16:19:29,"2,074s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Nombre""), Nombre)",Edge Chromium 113,,,2023-05-23 16:19:29,2023-05-23 16:19:35,"6,002s",PASSED
+delay(DelayCorto),Edge Chromium 113,,,2023-05-23 16:19:35,2023-05-23 16:19:36,"0,603s",FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 113,,,2023-05-23 16:19:36,2023-05-23 16:19:36,"0,003s",PASSED
+Start listener action : addFailedTCToList,Edge Chromium 113,,,2023-05-23 16:19:36,2023-05-23 16:19:36,"0,006s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Variables_simples,Edge Chromium 113,,,2023-05-23 16:19:36,2023-05-23 16:20:10,"33,535s",FAILED
+Start listener action : executeRows,Edge Chromium 113,,,2023-05-23 16:19:38,2023-05-23 16:19:38,"0,002s",PASSED
+"openBrowser("""")",Edge Chromium 113,,,2023-05-23 16:19:44,2023-05-23 16:19:48,"4,235s",PASSED
+maximizeWindow(),Edge Chromium 113,,,2023-05-23 16:19:48,2023-05-23 16:19:49,"0,249s",PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Edge Chromium 113,,,2023-05-23 16:19:49,2023-05-23 16:19:53,"4,751s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Add""))",Edge Chromium 113,,,2023-05-23 16:19:53,2023-05-23 16:19:56,"2,161s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName""), Nombre)",Edge Chromium 113,,,2023-05-23 16:19:56,2023-05-23 16:19:58,"2,827s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName""), Apellido)",Edge Chromium 113,,,2023-05-23 16:19:58,2023-05-23 16:20:00,"1,870s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail""), Email)",Edge Chromium 113,,,2023-05-23 16:20:00,2023-05-23 16:20:02,"1,751s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Age_age""), Edad)",Edge Chromium 113,,,2023-05-23 16:20:02,2023-05-23 16:20:03,"1,440s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary""), Salario)",Edge Chromium 113,,,2023-05-23 16:20:03,2023-05-23 16:20:05,"1,341s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Department_department""), Departamento)",Edge Chromium 113,,,2023-05-23 16:20:05,2023-05-23 16:20:06,"1,178s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Submit""))",Edge Chromium 113,,,2023-05-23 16:20:06,2023-05-23 16:20:07,"0,863s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox""), TextoaBuscar)",Edge Chromium 113,,,2023-05-23 16:20:07,2023-05-23 16:20:08,"1,397s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/svg""))",Edge Chromium 113,,,2023-05-23 16:20:08,2023-05-23 16:20:09,"0,770s",PASSED
+"textoBuscado = getText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/div_alejandro""), CONTINUE_ON_FAILURE)",Edge Chromium 113,,,2023-05-23 16:20:09,2023-05-23 16:20:10,"0,697s",PASSED
+delay(DelayCorto),Edge Chromium 113,,,2023-05-23 16:20:10,2023-05-23 16:20:10,"0,011s",FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 113,,,2023-05-23 16:20:10,2023-05-23 16:20:10,"0,000s",PASSED
+Start listener action : addFailedTCToList,Edge Chromium 113,,,2023-05-23 16:20:10,2023-05-23 16:20:10,"0,003s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Test_TakeShoot,Edge Chromium 113,,,2023-05-23 16:20:10,2023-05-23 16:20:47,"37,134s",PASSED
+Start listener action : executeRows,Edge Chromium 113,,,2023-05-23 16:20:10,2023-05-23 16:20:10,"0,001s",PASSED
+"openBrowser("""")",Edge Chromium 113,,,2023-05-23 16:20:12,2023-05-23 16:20:17,"5,331s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Edge Chromium 113,,,2023-05-23 16:20:17,2023-05-23 16:20:20,"3,082s",PASSED
+maximizeWindow(),Edge Chromium 113,,,2023-05-23 16:20:20,2023-05-23 16:20:20,"0,170s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), ""alejandro"")",Edge Chromium 113,,,2023-05-23 16:20:20,2023-05-23 16:20:25,"4,400s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), 10)",Edge Chromium 113,,,2023-05-23 16:20:25,2023-05-23 16:20:31,"6,304s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), ""canosa1@msn.com"")",Edge Chromium 113,,,2023-05-23 16:20:31,2023-05-23 16:20:33,"1,937s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), 10)",Edge Chromium 113,,,2023-05-23 16:20:33,2023-05-23 16:20:34,"0,868s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), ""calle doctor esquerdo 56"")",Edge Chromium 113,,,2023-05-23 16:20:34,2023-05-23 16:20:36,"2,074s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), 0)",Edge Chromium 113,,,2023-05-23 16:20:36,2023-05-23 16:20:37,"1,210s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""calle doctor esquerdo 67"")",Edge Chromium 113,,,2023-05-23 16:20:37,2023-05-23 16:20:39,"1,513s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), 0)",Edge Chromium 113,,,2023-05-23 16:20:39,2023-05-23 16:20:39,"0,831s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Edge Chromium 113,,,2023-05-23 16:20:39,2023-05-23 16:20:41,"1,025s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Edge Chromium 113,,,2023-05-23 16:20:41,2023-05-23 16:20:42,"1,096s",PASSED
+"click(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""))",Edge Chromium 113,,,2023-05-23 16:20:42,2023-05-23 16:20:43,"1,089s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2""))",Edge Chromium 113,,,2023-05-23 16:20:43,2023-05-23 16:20:44,"1,189s",PASSED
+"takeScreenshot(""C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"")",Edge Chromium 113,,,2023-05-23 16:20:44,2023-05-23 16:20:45,"1,324s",PASSED
+closeBrowser(),Edge Chromium 113,,,2023-05-23 16:20:45,2023-05-23 16:20:47,"1,639s",PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 113,,,2023-05-23 16:20:47,2023-05-23 16:20:47,"0,001s",PASSED
+Start listener action : addFailedTCToList,Edge Chromium 113,,,2023-05-23 16:20:47,2023-05-23 16:20:47,"0,001s",PASSED

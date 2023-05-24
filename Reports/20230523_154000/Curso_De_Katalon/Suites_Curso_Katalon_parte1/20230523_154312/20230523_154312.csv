@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte1,Firefox 113.0,,,2023-05-23 15:43:22,2023-05-23 15:44:39,"1m - 17,318s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/AccionesconElRaton,Firefox 113.0,,,2023-05-23 15:43:23,2023-05-23 15:43:55,"31,618s",PASSED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 15:43:24,2023-05-23 15:43:24,"0,063s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 15:43:26,2023-05-23 15:43:37,"10,615s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 15:43:37,2023-05-23 15:43:37,"0,145s",PASSED
+"navigateToUrl(""https://pruebasqafenix.com/"")",Firefox 113.0,,,2023-05-23 15:43:37,2023-05-23 15:43:38,"1,044s",PASSED
+"click(findTestObject(""AccionesConElRaton/AceptarCookie""))",Firefox 113.0,,,2023-05-23 15:43:38,2023-05-23 15:43:43,"4,668s",PASSED
+"focus(findTestObject(""AccionesConElRaton/Productos""))",Firefox 113.0,,,2023-05-23 15:43:43,2023-05-23 15:43:43,"0,739s",PASSED
+delay(3),Firefox 113.0,,,2023-05-23 15:43:43,2023-05-23 15:43:46,"3,140s",PASSED
+"mouseOver(findTestObject(""AccionesConElRaton/Categorias""))",Firefox 113.0,,,2023-05-23 15:43:46,2023-05-23 15:43:47,"0,966s",PASSED
+delay(3),Firefox 113.0,,,2023-05-23 15:43:47,2023-05-23 15:43:50,"3,016s",PASSED
+"mouseOver(findTestObject(""AccionesConElRaton/Productos""))",Firefox 113.0,,,2023-05-23 15:43:50,2023-05-23 15:43:51,"0,597s",PASSED
+"waitForElementVisible(findTestObject(""AccionesConElRaton/Productos en Stock""), 5)",Firefox 113.0,,,2023-05-23 15:43:51,2023-05-23 15:43:52,"0,753s",PASSED
+"click(findTestObject(""AccionesConElRaton/Productos en Stock""))",Firefox 113.0,,,2023-05-23 15:43:52,2023-05-23 15:43:53,"1,422s",PASSED
+waitForPageLoad(30),Firefox 113.0,,,2023-05-23 15:43:53,2023-05-23 15:43:53,"0,278s",PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-23 15:43:53,2023-05-23 15:43:55,"1,646s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 15:43:55,2023-05-23 15:43:55,"0,001s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 15:43:55,2023-05-23 15:43:55,"0,002s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Drog_and_Drag,Firefox 113.0,,,2023-05-23 15:43:55,2023-05-23 15:44:39,"44,320s",FAILED
+Start listener action : executeRows,Firefox 113.0,,,2023-05-23 15:43:55,2023-05-23 15:43:55,"0,005s",PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-23 15:43:56,2023-05-23 15:44:02,"5,269s",PASSED
+"navigateToUrl(""https://www.globalsqa.com/demo-site/draganddrop/"")",Firefox 113.0,,,2023-05-23 15:44:02,2023-05-23 15:44:07,"5,548s",PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-23 15:44:07,2023-05-23 15:44:07,"0,025s",PASSED
+waitForPageLoad(10),Firefox 113.0,,,2023-05-23 15:44:07,2023-05-23 15:44:07,"0,077s",PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drog_and_Drag/Elemento1""), findTestObject(""Object Repository/Drog_and_Drag/Contenedor""))",Firefox 113.0,,,2023-05-23 15:44:07,2023-05-23 15:44:39,"32,174s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 113.0,,,2023-05-23 15:44:39,2023-05-23 15:44:39,"0,003s",PASSED
+Start listener action : addFailedTCToList,Firefox 113.0,,,2023-05-23 15:44:39,2023-05-23 15:44:39,"0,002s",PASSED

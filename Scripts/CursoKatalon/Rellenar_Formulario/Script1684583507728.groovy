@@ -25,21 +25,21 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Rellenar_Formulario/Nombre'), Nombre)
 
-WebUI.delay(GlobalVariable.DelayLargo)
+WebUI.delay(GlobalVariable.DelayCorto)
 
 WebUI.setText(findTestObject('Rellenar_Formulario/Apellidos'), Apellidos)
 
-WebUI.delay(GlobalVariable.DelayLargo)
+WebUI.delay(GlobalVariable.DelayCorto)
 
 WebUI.setText(findTestObject('Rellenar_Formulario/Email'), Email)
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.DelayCorto)
 
 WebUI.verifyElementClickable(findTestObject('Rellenar_Formulario/RadioButton_male'))
 
 WebUI.click(findTestObject('Rellenar_Formulario/RadioButton_male'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.DelayCorto)
 
 WebUI.setText(findTestObject('Rellenar_Formulario/Movil'), Movil)
 
@@ -60,7 +60,7 @@ WebUI.selectOptionByValue(findTestObject('Rellenar_Formulario/Año'), '1977', fa
 
 WebUI.click(findTestObject('Rellenar_Formulario/Dia'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.DelayCorto)
 
 WebUI.verifyElementClickable(findTestObject('Rellenar_Formulario/Asunto'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -74,9 +74,9 @@ WebUI.verifyElementClickable(findTestObject('Rellenar_Formulario/Sports'), Failu
 
 WebUI.click(findTestObject('Rellenar_Formulario/Sports'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.DelayCorto)
 
-WebUI.uploadFile(findTestObject('Rellenar_Formulario/Subir_Archivo'), 'C:\\Users\\aleja\\Imagenes\\imagen.png')
+WebUI.uploadFile(findTestObject('Rellenar_Formulario/Subir_Archivo'), 'C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Imagenes\\imagen1.png')
 
 WebUI.scrollToElement(findTestObject('Rellenar_Formulario/Direccion'), 0)
 

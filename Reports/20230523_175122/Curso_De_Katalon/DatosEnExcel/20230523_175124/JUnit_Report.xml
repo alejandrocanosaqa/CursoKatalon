@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DatosEnExcel" time="163.054" tests="5" failures="0" errors="0">
+   <testsuite name="DatosEnExcel" tests="5" failures="0" errors="0" time="163.054" skipped="0" timestamp="2023-05-23 17:51:40" hostname="user - 192.168.1.21" id="Test Suites/Curso_De_Katalon/DatosEnExcel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_175122\\Curso_De_Katalon\\DatosEnExcel\\20230523_175124"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\CursoKatalon-master\\Reports\\20230523_175122\\Curso_De_Katalon\\DatosEnExcel\\20230523_175124\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - 192.168.1.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Firefox 113.0"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="2152c8e2-b675-466e-b545-47bb0d5d6a66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="50.167" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 17:51:42 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 17:51:42 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:51:42 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:51:44 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:51:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 17:51:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-23 17:51:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 17:52:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 17:52:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 17:52:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 17:52:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:52:09 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'alejandro1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:52:17 - [MESSAGE][PASSED] - Text 'alejandro1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'canosa1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:52:18 - [MESSAGE][PASSED] - Text 'canosa1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:52:19 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:52:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:52:20 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:52:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:52:21 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:52:22 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'alejandro1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:52:24 - [MESSAGE][PASSED] - Text 'alejandro1' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:52:25 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro1'
+
+2023-05-23 17:52:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro1'
+
+2023-05-23 17:52:26 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 17:52:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 17:52:27 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, TextoaBuscar, true): Actual text 'alejandro1' and expected text 'alejandro1' are matched  using regular expression
+
+2023-05-23 17:52:27 - [MESSAGE][PASSED] - Actual text 'alejandro1' and expected text 'alejandro1' are matched  using regular expression
+
+2023-05-23 17:52:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 17:52:30 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 17:52:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 17:52:30 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:52:30 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:52:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .
+
+2023-05-23 17:52:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="26.901" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 17:52:33 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 17:52:33 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:52:33 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:52:33 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:52:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 17:52:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-23 17:52:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 17:52:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 17:52:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 17:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 17:52:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:52:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:52:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'alejandro2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:52:47 - [MESSAGE][PASSED] - Text 'alejandro2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'canosa2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:52:48 - [MESSAGE][PASSED] - Text 'canosa2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:52:49 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:52:50 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:52:51 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:52:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:52:52 - [MESSAGE][PASSED] - Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'alejandro2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:52:53 - [MESSAGE][PASSED] - Text 'alejandro2' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:52:54 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro2'
+
+2023-05-23 17:52:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro2'
+
+2023-05-23 17:52:55 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 17:52:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 17:52:56 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, TextoaBuscar, true): Actual text 'alejandro2' and expected text 'alejandro2' are matched  using regular expression
+
+2023-05-23 17:52:56 - [MESSAGE][PASSED] - Actual text 'alejandro2' and expected text 'alejandro2' are matched  using regular expression
+
+2023-05-23 17:52:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 17:52:57 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 17:52:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 17:52:57 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:52:57 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:52:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .
+
+2023-05-23 17:52:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="33.926" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 17:53:00 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 17:53:00 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:53:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:53:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 17:53:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-23 17:53:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 17:53:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 17:53:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 17:53:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 17:53:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:53:09 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:53:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'alejandro3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:53:20 - [MESSAGE][PASSED] - Text 'alejandro3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'canosa3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:53:21 - [MESSAGE][PASSED] - Text 'canosa3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:53:22 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:53:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:53:23 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:53:24 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:53:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:53:26 - [MESSAGE][PASSED] - Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:53:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:53:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'alejandro3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:53:28 - [MESSAGE][PASSED] - Text 'alejandro3' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:53:29 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro3'
+
+2023-05-23 17:53:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro3'
+
+2023-05-23 17:53:29 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 17:53:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 17:53:30 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, TextoaBuscar, true): Actual text 'alejandro3' and expected text 'alejandro3' are matched  using regular expression
+
+2023-05-23 17:53:30 - [MESSAGE][PASSED] - Actual text 'alejandro3' and expected text 'alejandro3' are matched  using regular expression
+
+2023-05-23 17:53:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 17:53:32 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 17:53:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 17:53:32 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:32 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:34 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .
+
+2023-05-23 17:53:34 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="24.864" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 17:53:34 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 17:53:34 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:53:34 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:34 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:53:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 17:53:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-23 17:53:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 17:53:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 17:53:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 17:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 17:53:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:53:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'alejandro4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:53:46 - [MESSAGE][PASSED] - Text 'alejandro4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'canosa4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:53:47 - [MESSAGE][PASSED] - Text 'canosa4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:53:48 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:53:49 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:53:50 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:53:51 - [MESSAGE][PASSED] - Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:53:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'alejandro4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:53:53 - [MESSAGE][PASSED] - Text 'alejandro4' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:53:54 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro4'
+
+2023-05-23 17:53:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro4'
+
+2023-05-23 17:53:54 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 17:53:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 17:53:55 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, TextoaBuscar, true): Actual text 'alejandro4' and expected text 'alejandro4' are matched  using regular expression
+
+2023-05-23 17:53:55 - [MESSAGE][PASSED] - Actual text 'alejandro4' and expected text 'alejandro4' are matched  using regular expression
+
+2023-05-23 17:53:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 17:53:57 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 17:53:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 17:53:57 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:57 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:53:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .
+
+2023-05-23 17:53:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CursoKatalon/Variables_simples" time="24.015" classname="Test Cases/CursoKatalon/Variables_simples" status="PASSED">
+         <system-out><![CDATA[2023-05-23 17:53:59 - [TEST_CASE][PASSED] - Test Cases/CursoKatalon/Variables_simples: Test Cases/CursoKatalon/Variables_simples
+
+2023-05-23 17:53:59 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:53:59 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:54:00 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+
+2023-05-23 17:54:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-23 17:54:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-23 17:54:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 17:54:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-23 17:54:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 17:54:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 17:54:05 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:54:08 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-05-23 17:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Add' is clicked on
+
+2023-05-23 17:54:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre): Text 'alejandro5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:54:11 - [MESSAGE][PASSED] - Text 'alejandro5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName'
+
+2023-05-23 17:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido): Text 'canosa5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:54:12 - [MESSAGE][PASSED] - Text 'canosa5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName'
+
+2023-05-23 17:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email): Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:54:13 - [MESSAGE][PASSED] - Text 'canosa1@msn.com' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-23 17:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad): Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:54:14 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Age_age'
+
+2023-05-23 17:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario): Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:54:15 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary'
+
+2023-05-23 17:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento): Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:54:16 - [MESSAGE][PASSED] - Text 'Desarrollo' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Department_department'
+
+2023-05-23 17:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-23 17:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar): Text 'alejandro5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:54:17 - [MESSAGE][PASSED] - Text 'alejandro5' is set on object 'Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox'
+
+2023-05-23 17:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg")): Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables_simples/Page_DEMOQA/svg' is clicked on
+
+2023-05-23 17:54:18 - [TEST_STEP][PASSED] - textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro5'
+
+2023-05-23 17:54:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Variables_simples/Page_DEMOQA/div_alejandro' is: 'alejandro5'
+
+2023-05-23 17:54:19 - [TEST_STEP][PASSED] - delay(DelayCorto): Delayed 1 second(s)
+
+2023-05-23 17:54:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-23 17:54:20 - [TEST_STEP][PASSED] - verifyMatch(TextoaBuscar, TextoaBuscar, true): Actual text 'alejandro5' and expected text 'alejandro5' are matched  using regular expression
+
+2023-05-23 17:54:20 - [MESSAGE][PASSED] - Actual text 'alejandro5' and expected text 'alejandro5' are matched  using regular expression
+
+2023-05-23 17:54:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-23 17:54:21 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-23 17:54:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-23 17:54:21 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:54:21 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+2023-05-23 17:54:23 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .
+
+2023-05-23 17:54:23 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CursoKatalon/Variables_simples' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-23 17:51:40 - [TEST_SUITE][PASSED] - DatosEnExcel: Test Cases/CursoKatalon/Variables_simples]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

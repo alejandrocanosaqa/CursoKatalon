@@ -1,0 +1,68 @@
+1
+00:00:14,439 --> 00:00:36,560
+1. openBrowser("")
+
+2
+00:00:36,581 --> 00:00:49,897
+5. navigateToUrl("https://demoqa.com/text-box")
+
+3
+00:00:49,914 --> 00:00:51,192
+9. maximizeWindow()
+
+4
+00:00:51,195 --> 00:01:10,965
+13. setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), "alejandro")
+
+5
+00:01:11,794 --> 00:01:20,232
+17. waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Full Name_userName"), 10)
+
+6
+00:01:20,236 --> 00:01:22,387
+21. setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), "canosa1@msn.com")
+
+7
+00:01:22,393 --> 00:01:24,394
+25. waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/input_Email_userEmail"), 10)
+
+8
+00:01:24,395 --> 00:01:26,137
+29. setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), "calle doctor esquerdo 56")
+
+9
+00:01:26,145 --> 00:01:26,923
+33. waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress"), 0)
+
+10
+00:01:26,925 --> 00:01:29,738
+37. setText(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "calle doctor esquerdo 67")
+
+11
+00:01:29,740 --> 00:01:31,993
+41. waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), 0)
+
+12
+00:01:31,995 --> 00:01:34,418
+45. scrollToElement(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit"), 0)
+
+13
+00:01:34,419 --> 00:01:35,880
+49. waitForElementClickable(findTestObject("Test_TakeShoot/Page_DEMOQA/button_Submit"), 0)
+
+14
+00:01:35,882 --> 00:01:37,459
+53. click(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit"))
+
+15
+00:01:37,462 --> 00:01:39,136
+57. verifyElementVisible(findTestObject("Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2"))
+
+16
+00:01:39,139 --> 00:01:43,375
+61. takeScreenshot("C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png")
+
+17
+00:01:43,377 --> 00:01:53,709
+65. closeBrowser()
+

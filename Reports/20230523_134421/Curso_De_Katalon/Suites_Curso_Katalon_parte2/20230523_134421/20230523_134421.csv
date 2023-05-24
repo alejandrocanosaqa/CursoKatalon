@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Curso_Katalon_parte2,Chrome 113.0.0.0,,,2023-05-23 13:44:37,2023-05-23 13:45:59,"1m - 22,193s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Rellenar_Formulario,Chrome 113.0.0.0,,,2023-05-23 13:44:38,2023-05-23 13:45:02,"23,408s",FAILED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-23 13:44:39,2023-05-23 13:44:39,"0,244s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-23 13:44:43,2023-05-23 13:44:53,"9,693s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 113.0.0.0,,,2023-05-23 13:44:53,2023-05-23 13:44:57,"4,862s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 13:44:57,2023-05-23 13:44:58,"0,632s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Nombre""), Nombre)",Chrome 113.0.0.0,,,2023-05-23 13:44:58,2023-05-23 13:45:01,"2,924s",PASSED
+delay(DelayLargo),Chrome 113.0.0.0,,,2023-05-23 13:45:01,2023-05-23 13:45:02,"0,542s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-23 13:45:02,2023-05-23 13:45:02,"0,015s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-23 13:45:02,2023-05-23 13:45:02,"0,005s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Test_TakeShoot,Chrome 113.0.0.0,,,2023-05-23 13:45:02,2023-05-23 13:45:30,"28,338s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-23 13:45:02,2023-05-23 13:45:02,"0,008s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-23 13:45:04,2023-05-23 13:45:08,"4,703s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 113.0.0.0,,,2023-05-23 13:45:08,2023-05-23 13:45:13,"4,800s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 13:45:13,2023-05-23 13:45:14,"0,477s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), ""alejandro"")",Chrome 113.0.0.0,,,2023-05-23 13:45:14,2023-05-23 13:45:17,"2,929s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Full Name_userName""), 10)",Chrome 113.0.0.0,,,2023-05-23 13:45:17,2023-05-23 13:45:18,"1,294s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), ""canosa1@msn.com"")",Chrome 113.0.0.0,,,2023-05-23 13:45:18,2023-05-23 13:45:19,"1,524s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/input_Email_userEmail""), 10)",Chrome 113.0.0.0,,,2023-05-23 13:45:19,2023-05-23 13:45:20,"0,733s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), ""calle doctor esquerdo 56"")",Chrome 113.0.0.0,,,2023-05-23 13:45:20,2023-05-23 13:45:21,"0,998s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Current Address_currentAddress""), 0)",Chrome 113.0.0.0,,,2023-05-23 13:45:21,2023-05-23 13:45:22,"0,594s",PASSED
+"setText(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""calle doctor esquerdo 67"")",Chrome 113.0.0.0,,,2023-05-23 13:45:22,2023-05-23 13:45:23,"1,118s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), 0)",Chrome 113.0.0.0,,,2023-05-23 13:45:23,2023-05-23 13:45:23,"0,624s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Chrome 113.0.0.0,,,2023-05-23 13:45:23,2023-05-23 13:45:24,"0,697s",PASSED
+"waitForElementClickable(findTestObject(""Test_TakeShoot/Page_DEMOQA/button_Submit""), 0)",Chrome 113.0.0.0,,,2023-05-23 13:45:24,2023-05-23 13:45:25,"1,076s",PASSED
+"click(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-23 13:45:25,2023-05-23 13:45:27,"1,319s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Test_TakeShoot/Page_DEMOQA/div_NamealejandroEmailcanosa1msn.comCurrent_59e2b2""))",Chrome 113.0.0.0,,,2023-05-23 13:45:27,2023-05-23 13:45:28,"1,084s",PASSED
+"takeScreenshot(""C:\Users\user\Katalon Studio\CursoKatalon-master\Imagenes\imagen1.png"")",Chrome 113.0.0.0,,,2023-05-23 13:45:28,2023-05-23 13:45:29,"1,017s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-23 13:45:29,2023-05-23 13:45:30,"1,410s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-23 13:45:30,2023-05-23 13:45:30,"0,001s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-23 13:45:30,2023-05-23 13:45:30,"0,002s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Variables_simples,Chrome 113.0.0.0,,,2023-05-23 13:45:30,2023-05-23 13:45:59,"28,759s",PASSED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-23 13:45:31,2023-05-23 13:45:31,"0,002s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-23 13:45:33,2023-05-23 13:45:36,"3,116s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 13:45:36,2023-05-23 13:45:36,"0,496s",PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Chrome 113.0.0.0,,,2023-05-23 13:45:36,2023-05-23 13:45:40,"3,946s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Add""))",Chrome 113.0.0.0,,,2023-05-23 13:45:40,2023-05-23 13:45:41,"1,160s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName""), Nombre)",Chrome 113.0.0.0,,,2023-05-23 13:45:41,2023-05-23 13:45:44,"2,799s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName""), Apellido)",Chrome 113.0.0.0,,,2023-05-23 13:45:44,2023-05-23 13:45:46,"1,497s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail""), Email)",Chrome 113.0.0.0,,,2023-05-23 13:45:46,2023-05-23 13:45:47,"1,521s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Age_age""), Edad)",Chrome 113.0.0.0,,,2023-05-23 13:45:47,2023-05-23 13:45:49,"1,872s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary""), Salario)",Chrome 113.0.0.0,,,2023-05-23 13:45:49,2023-05-23 13:45:51,"1,658s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Department_department""), Departamento)",Chrome 113.0.0.0,,,2023-05-23 13:45:51,2023-05-23 13:45:52,"1,211s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-23 13:45:52,2023-05-23 13:45:53,"0,815s",PASSED
+"setText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox""), TextoaBuscar)",Chrome 113.0.0.0,,,2023-05-23 13:45:53,2023-05-23 13:45:54,"1,401s",PASSED
+"click(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/svg""))",Chrome 113.0.0.0,,,2023-05-23 13:45:54,2023-05-23 13:45:55,"0,834s",PASSED
+"textoBuscado = getText(findTestObject(""Object Repository/Variables_simples/Page_DEMOQA/div_alejandro""), CONTINUE_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-23 13:45:55,2023-05-23 13:45:56,"0,793s",PASSED
+delay(DelayCorto),Chrome 113.0.0.0,,,2023-05-23 13:45:56,2023-05-23 13:45:57,"1,024s",PASSED
+"verifyMatch(TextoaBuscar, ""Alejandro"", true)",Chrome 113.0.0.0,,,2023-05-23 13:45:57,2023-05-23 13:45:57,"0,091s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-23 13:45:57,2023-05-23 13:45:59,"1,857s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-23 13:45:59,2023-05-23 13:45:59,"0,004s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-23 13:45:59,2023-05-23 13:45:59,"0,004s",PASSED

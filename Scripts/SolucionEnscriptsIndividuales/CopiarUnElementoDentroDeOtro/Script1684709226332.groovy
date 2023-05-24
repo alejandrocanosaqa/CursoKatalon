@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.By as By
-import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -43,5 +42,5 @@ WebElement to = driver.findElement(Targetlevel10)
 //copiamos el elemento origen en el destino
 action.dragAndDrop(from, to).build().perform()
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.DelayCorto)
 

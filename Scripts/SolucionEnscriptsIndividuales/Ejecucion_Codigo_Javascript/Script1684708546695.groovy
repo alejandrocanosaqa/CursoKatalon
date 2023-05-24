@@ -31,5 +31,5 @@ WebUI.comment('Practica Nivel 7')
 //Ejecutamos el javascript  del objeto oculto
 WebUI.executeJavaScript('changePage();', Arrays.asList(BotonOculto), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.DelayCorto)
 
