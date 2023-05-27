@@ -17,10 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CursoKatalon/Formulariosimple</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
+         <combinationType>ONE</combinationType>
          <id>9cef82f4-90f6-462d-be10-cac1d8d29995</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Datos_MYSQL/DatosenMYSQL</testDataId>
