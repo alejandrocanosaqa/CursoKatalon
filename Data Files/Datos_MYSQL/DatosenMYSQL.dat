@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DatosenMYSQL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>6dcddae0-64cf-4a5a-8a89-5cd44bd20924</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://localhost:3306/datos_katalon</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>MTQxNzc=</password>
+   <query>select nombre,apellidos,email from datosempleado</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>katalon</user>
+   <usingGlobalDBSetting>true</usingGlobalDBSetting>
+</DataFileEntity>

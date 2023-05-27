@@ -5,30 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>088b54a8-8cbd-4e8f-a1ed-96b0eae47be6</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3a0fb717-d8f8-4f09-81ca-72196f4b8711</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7790849c-d456-4368-ac10-b31682e520bc</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3623469f-6ae9-495c-92b5-3f131f93fe31</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>45a951ae-91d0-408f-a58c-eada2726a89c</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Alejandro'</defaultValue>
       <description></description>

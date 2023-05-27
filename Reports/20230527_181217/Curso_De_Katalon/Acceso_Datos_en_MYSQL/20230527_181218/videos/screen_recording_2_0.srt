@@ -1,0 +1,20 @@
+1
+00:00:00,001 --> 00:00:01,996
+1. openBrowser("")
+
+2
+00:00:01,998 --> 00:00:03,287
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:00:03,289 --> 00:00:03,459
+9. maximizeWindow()
+
+4
+00:00:03,460 --> 00:00:05,131
+13. setText(findTestObject("Rellenar_Formulario/Nombre"), Nombre)
+
+5
+00:00:05,132 --> 00:00:05,143
+17. delay(DelayCorto)
+

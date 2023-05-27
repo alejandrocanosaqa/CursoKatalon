@@ -1,0 +1,12 @@
+1
+00:00:00,016 --> 00:00:07,221
+1. openBrowser("")
+
+2
+00:00:07,223 --> 00:00:07,358
+5. maximizeWindow()
+
+3
+00:00:07,359 --> 00:00:09,268
+9. navigateToUrl("https://demoqa.com/webtables")
+

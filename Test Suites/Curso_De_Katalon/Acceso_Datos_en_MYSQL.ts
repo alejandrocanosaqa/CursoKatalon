@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Acceso_Datos_en_MYSQL</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c419e66b-f110-43d7-93c9-1a6b1d699ec3</testSuiteGuid>
+   <testCaseLink>
+      <guid>3f577b5f-3316-45b4-a0bb-614520055a74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CursoKatalon/Formulariosimple</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>9cef82f4-90f6-462d-be10-cac1d8d29995</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Datos_MYSQL/DatosenMYSQL</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9cef82f4-90f6-462d-be10-cac1d8d29995</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nombre</value>
+         <variableId>b46da093-4a06-4fa3-b553-d7cdb2116f34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9cef82f4-90f6-462d-be10-cac1d8d29995</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>apellidos</value>
+         <variableId>d1ffaa38-c5cf-428d-85e6-c0332d37883b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9cef82f4-90f6-462d-be10-cac1d8d29995</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>980c9d61-689c-4099-a317-0615005ea991</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

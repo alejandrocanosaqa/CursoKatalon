@@ -1,0 +1,60 @@
+1
+00:00:00,514 --> 00:00:15,653
+1. openBrowser("")
+
+2
+00:00:15,658 --> 00:00:15,807
+5. maximizeWindow()
+
+3
+00:00:15,807 --> 00:00:18,015
+9. navigateToUrl("https://demoqa.com/webtables")
+
+4
+00:00:18,016 --> 00:00:18,757
+13. click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Add"))
+
+5
+00:00:18,758 --> 00:00:19,643
+17. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_First Name_firstName"), Nombre)
+
+6
+00:00:19,644 --> 00:00:20,536
+21. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Last Name_lastName"), Apellido)
+
+7
+00:00:20,538 --> 00:00:21,205
+25. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Email_userEmail"), Email)
+
+8
+00:00:21,206 --> 00:00:21,855
+29. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Age_age"), Edad)
+
+9
+00:00:21,856 --> 00:00:22,533
+33. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Salary_salary"), Salario)
+
+10
+00:00:22,534 --> 00:00:23,147
+37. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Department_department"), Departamento)
+
+11
+00:00:23,148 --> 00:00:23,528
+41. click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/button_Submit"))
+
+12
+00:00:23,529 --> 00:00:24,553
+45. setText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/input_Add_searchBox"), TextoaBuscar)
+
+13
+00:00:24,554 --> 00:00:25,124
+49. click(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/svg"))
+
+14
+00:00:25,125 --> 00:00:25,463
+53. textoBuscado = getText(findTestObject("Object Repository/Variables_simples/Page_DEMOQA/div_alejandro"), CONTINUE_ON_FAILURE)
+
+15
+00:00:25,463 --> 00:00:25,522
+57. delay(DelayCorto)
+

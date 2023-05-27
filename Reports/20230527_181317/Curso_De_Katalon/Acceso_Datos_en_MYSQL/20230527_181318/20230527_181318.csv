@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Acceso_Datos_en_MYSQL,Chrome 113.0.0.0,,,2023-05-27 18:13:20,2023-05-27 18:13:38,"17,990s",FAILED
+,,,,,,,
+Test Cases/CursoKatalon/Formulariosimple,Chrome 113.0.0.0,,,2023-05-27 18:13:21,2023-05-27 18:13:30,"9,307s",FAILED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-27 18:13:21,2023-05-27 18:13:21,"0,414s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 18:13:22,2023-05-27 18:13:24,"2,769s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 113.0.0.0,,,2023-05-27 18:13:24,2023-05-27 18:13:26,"1,505s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-27 18:13:26,2023-05-27 18:13:26,"0,162s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Nombre""), Nombre)",Chrome 113.0.0.0,,,2023-05-27 18:13:26,2023-05-27 18:13:28,"1,727s",PASSED
+delay(DelayCorto),Chrome 113.0.0.0,,,2023-05-27 18:13:28,2023-05-27 18:13:28,"0,068s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-27 18:13:28,2023-05-27 18:13:28,"0,001s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-27 18:13:28,2023-05-27 18:13:28,"0,002s",PASSED
+Video,Chrome 113.0.0.0,,,2023-05-27 18:13:30,2023-05-27 18:13:30,"0,001s",PASSED
+,,,,,,,
+Test Cases/CursoKatalon/Formulariosimple,Chrome 113.0.0.0,,,2023-05-27 18:13:30,2023-05-27 18:13:38,"8,279s",FAILED
+Start listener action : executeRows,Chrome 113.0.0.0,,,2023-05-27 18:13:30,2023-05-27 18:13:30,"0,012s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 18:13:30,2023-05-27 18:13:32,"2,025s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 113.0.0.0,,,2023-05-27 18:13:32,2023-05-27 18:13:35,"2,724s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-27 18:13:35,2023-05-27 18:13:35,"0,163s",PASSED
+"setText(findTestObject(""Rellenar_Formulario/Nombre""), Nombre)",Chrome 113.0.0.0,,,2023-05-27 18:13:35,2023-05-27 18:13:36,"1,262s",PASSED
+delay(DelayCorto),Chrome 113.0.0.0,,,2023-05-27 18:13:36,2023-05-27 18:13:36,"0,004s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 113.0.0.0,,,2023-05-27 18:13:36,2023-05-27 18:13:36,"0,001s",PASSED
+Start listener action : addFailedTCToList,Chrome 113.0.0.0,,,2023-05-27 18:13:36,2023-05-27 18:13:36,"0,001s",PASSED
+Video,Chrome 113.0.0.0,,,2023-05-27 18:13:38,2023-05-27 18:13:38,"0,001s",PASSED

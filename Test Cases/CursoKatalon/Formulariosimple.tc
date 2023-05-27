@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Formulariosimple</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b16304fb-5dcc-47f1-836b-451062248b84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b46da093-4a06-4fa3-b553-d7cdb2116f34</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1ffaa38-c5cf-428d-85e6-c0332d37883b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>980c9d61-689c-4099-a317-0615005ea991</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b46da093-4a06-4fa3-b553-d7cdb2116f34</id>
+      <masked>false</masked>
+      <name>Nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1ffaa38-c5cf-428d-85e6-c0332d37883b</id>
+      <masked>false</masked>
+      <name>Apellidos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>980c9d61-689c-4099-a317-0615005ea991</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>
