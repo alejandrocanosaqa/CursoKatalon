@@ -15,7 +15,7 @@
       <guid>14e25ec5-63e8-418d-8f87-2ddf3f69988a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CursoKatalon/Rellenar_Formulario</testCaseId>
+      <testCaseId>Test Cases/CursoKatalon/Formularios/Rellenar_Formulario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -46,7 +46,7 @@
       <guid>12a22428-f2ec-42a6-bc3d-b7d337b305db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CursoKatalon/Variables_simples</testCaseId>
+      <testCaseId>Test Cases/CursoKatalon/Variables/Variables_simples</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -95,7 +95,7 @@
       <guid>1eaf67c8-860f-42d1-be44-bbf40b7b7dac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CursoKatalon/Test_TakeShoot</testCaseId>
+      <testCaseId>Test Cases/CursoKatalon/TakeShoot/Test_TakeShoot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

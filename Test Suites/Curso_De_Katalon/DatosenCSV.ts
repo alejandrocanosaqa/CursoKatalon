@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>Nombre</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/CursoKatalon/Variables_simples</testCaseId>
+      <testCaseId>Test Cases/CursoKatalon/Variables/Variables_simples</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f6297116-d2d3-4fdd-a814-5265a4949ff8</id>

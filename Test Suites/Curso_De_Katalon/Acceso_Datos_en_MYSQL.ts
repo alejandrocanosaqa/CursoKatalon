@@ -15,7 +15,7 @@
       <guid>3f577b5f-3316-45b4-a0bb-614520055a74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CursoKatalon/Formulariosimple</testCaseId>
+      <testCaseId>Test Cases/CursoKatalon/Formularios/Formulariosimple</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9cef82f4-90f6-462d-be10-cac1d8d29995</id>
