@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wait</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b3faf10-7fc9-4932-b247-e84a7002102b</testCaseGuid>
+   <variable>
+      <defaultValue>30</defaultValue>
+      <description></description>
+      <id>4262e6de-64a9-406a-8570-f52acc24e4a3</id>
+      <masked>false</masked>
+      <name>Page_load</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>c1412bcf-1be9-4327-b65a-2ce2a0aa80ba</id>
+      <masked>false</masked>
+      <name>Wait_general</name>
+   </variable>
+</TestCaseEntity>

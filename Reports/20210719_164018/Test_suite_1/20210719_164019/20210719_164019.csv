@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_1,Chrome 91.0.4472.124,,,2021-07-19 16:40:40,2021-07-19 16:41:23,42.822s,FAILED
+,,,,,,,
+Test Cases/Carga_2/Carga_2,Chrome 91.0.4472.124,,,2021-07-19 16:40:40,2021-07-19 16:40:47,6.556s,FAILED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-19 16:40:41,2021-07-19 16:40:44,2.875s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 91.0.4472.124,,,2021-07-19 16:40:44,2021-07-19 16:40:45,0.949s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-07-19 16:40:45,2021-07-19 16:40:45,0.149s,PASSED
+"uploadFile(findTestObject(""Carga2/Page_Upload a File/Cargar""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Chrome 91.0.4472.124,,,2021-07-19 16:40:45,2021-07-19 16:40:45,0.436s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_What type is it_filetype""))",Chrome 91.0.4472.124,,,2021-07-19 16:40:45,2021-07-19 16:40:46,0.413s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_A General File_upload""))",Chrome 91.0.4472.124,,,2021-07-19 16:40:46,2021-07-19 16:40:47,1.123s,PASSED
+delay(Delay_tiempo),Chrome 91.0.4472.124,,,2021-07-19 16:40:47,2021-07-19 16:40:47,0.116s,FAILED
+,,,,,,,
+Test Cases/Carga_upload_1/Carga_1,Chrome 91.0.4472.124,,,2021-07-19 16:40:47,2021-07-19 16:40:57,9.941s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-19 16:40:47,2021-07-19 16:40:49,1.847s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 91.0.4472.124,,,2021-07-19 16:40:49,2021-07-19 16:40:50,0.886s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-07-19 16:40:50,2021-07-19 16:40:50,0.129s,PASSED
+"uploadFile(findTestObject(""Carga_1/Page_Upload a File/carga""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Chrome 91.0.4472.124,,,2021-07-19 16:40:50,2021-07-19 16:40:51,0.374s,PASSED
+delay(2),Chrome 91.0.4472.124,,,2021-07-19 16:40:51,2021-07-19 16:40:53,2.003s,PASSED
+"click(findTestObject(""Object Repository/Carga_1/Page_Upload a File/input_What type is it_filetype""))",Chrome 91.0.4472.124,,,2021-07-19 16:40:53,2021-07-19 16:40:53,0.376s,PASSED
+"click(findTestObject(""Carga_1/Page_Upload a File/Subir""))",Chrome 91.0.4472.124,,,2021-07-19 16:40:53,2021-07-19 16:40:54,1.126s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-19 16:40:54,2021-07-19 16:40:55,0.739s,PASSED
+delay(2),Chrome 91.0.4472.124,,,2021-07-19 16:40:55,2021-07-19 16:40:57,2.006s,PASSED
+,,,,,,,
+Test Cases/Drag_drop/Drag_drop,Chrome 91.0.4472.124,,,2021-07-19 16:40:57,2021-07-19 16:41:07,9.565s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-19 16:40:57,2021-07-19 16:40:59,1.191s,PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test/drag-and-drop-demo.html"")",Chrome 91.0.4472.124,,,2021-07-19 16:40:59,2021-07-19 16:41:00,1.538s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-07-19 16:41:00,2021-07-19 16:41:00,0.131s,PASSED
+waitForPageLoad(30),Chrome 91.0.4472.124,,,2021-07-19 16:41:00,2021-07-19 16:41:00,0.204s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drag_drop/Drag_1""), findTestObject(""Object Repository/Drag_drop/Destino""))",Chrome 91.0.4472.124,,,2021-07-19 16:41:00,2021-07-19 16:41:02,1.491s,PASSED
+delay(4),Chrome 91.0.4472.124,,,2021-07-19 16:41:02,2021-07-19 16:41:06,4.003s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-19 16:41:06,2021-07-19 16:41:07,0.650s,PASSED
+,,,,,,,
+Test Cases/Focus/Focus,Chrome 91.0.4472.124,,,2021-07-19 16:41:07,2021-07-19 16:41:23,16.398s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-19 16:41:07,2021-07-19 16:41:08,1.184s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 91.0.4472.124,,,2021-07-19 16:41:08,2021-07-19 16:41:11,2.733s,PASSED
+waitForPageLoad(30),Chrome 91.0.4472.124,,,2021-07-19 16:41:11,2021-07-19 16:41:11,0.018s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-07-19 16:41:11,2021-07-19 16:41:11,0.130s,PASSED
+"focus(findTestObject(""Focus/Name""))",Chrome 91.0.4472.124,,,2021-07-19 16:41:11,2021-07-19 16:41:12,0.855s,PASSED
+delay(5),Chrome 91.0.4472.124,,,2021-07-19 16:41:12,2021-07-19 16:41:17,5.003s,PASSED
+"focus(findTestObject(""Focus/Apellidos""))",Chrome 91.0.4472.124,,,2021-07-19 16:41:17,2021-07-19 16:41:17,0.389s,PASSED
+delay(5),Chrome 91.0.4472.124,,,2021-07-19 16:41:17,2021-07-19 16:41:22,5.002s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-19 16:41:22,2021-07-19 16:41:23,0.688s,PASSED

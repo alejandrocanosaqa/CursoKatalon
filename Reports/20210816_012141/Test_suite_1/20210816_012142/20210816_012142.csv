@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_1,,,,2021-08-16 01:21:48,2021-08-16 01:21:52,3.806s,FAILED
+,,,,,,,
+Test Cases/Carga_2/Carga_2,,,,2021-08-16 01:21:48,2021-08-16 01:21:50,2.331s,FAILED
+"openBrowser("""")",,,,2021-08-16 01:21:48,2021-08-16 01:21:50,2.076s,FAILED
+,,,,,,,
+Test Cases/Carga_upload_1/Carga_1,,,,2021-08-16 01:21:50,2021-08-16 01:21:52,1.296s,FAILED
+"openBrowser("""")",,,,2021-08-16 01:21:50,2021-08-16 01:21:51,1.059s,FAILED

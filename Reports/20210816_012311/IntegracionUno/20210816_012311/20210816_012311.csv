@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IntegracionUno,Chrome 92.0.4515.131,,,2021-08-16 01:23:17,2021-08-16 01:23:52,34.457s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,Chrome 92.0.4515.131,,,2021-08-16 01:23:18,2021-08-16 01:23:37,19.531s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 01:23:18,2021-08-16 01:23:21,3.180s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 92.0.4515.131,,,2021-08-16 01:23:21,2021-08-16 01:23:23,2.394s,PASSED
+maximizeWindow(),Chrome 92.0.4515.131,,,2021-08-16 01:23:23,2021-08-16 01:23:24,0.168s,PASSED
+waitForPageLoad(5),Chrome 92.0.4515.131,,,2021-08-16 01:23:24,2021-08-16 01:23:24,0.234s,PASSED
+"for ([x = 1, x <= 4, (x++)])",Chrome 92.0.4515.131,,,2021-08-16 01:23:24,2021-08-16 01:23:36,12.511s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-16 01:23:36,2021-08-16 01:23:37,0.693s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 92.0.4515.131,,,2021-08-16 01:23:37,2021-08-16 01:23:52,14.637s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 01:23:37,2021-08-16 01:23:38,1.083s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 92.0.4515.131,,,2021-08-16 01:23:38,2021-08-16 01:23:39,0.735s,PASSED
+Bandera = 0,Chrome 92.0.4515.131,,,2021-08-16 01:23:39,2021-08-16 01:23:39,0.001s,PASSED
+while (Bandera != 1),Chrome 92.0.4515.131,,,2021-08-16 01:23:39,2021-08-16 01:23:52,12.549s,PASSED

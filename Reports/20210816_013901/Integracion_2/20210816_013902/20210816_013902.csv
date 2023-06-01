@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion_2,,,,2021-08-16 01:39:06,2021-08-16 01:39:10,3.487s,FAILED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,,,,2021-08-16 01:39:07,2021-08-16 01:39:09,2.144s,FAILED
+"openBrowser("""")",,,,2021-08-16 01:39:07,2021-08-16 01:39:09,1.953s,FAILED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,,,,2021-08-16 01:39:09,2021-08-16 01:39:10,1.173s,FAILED
+"openBrowser("""")",,,,2021-08-16 01:39:09,2021-08-16 01:39:10,1.028s,FAILED

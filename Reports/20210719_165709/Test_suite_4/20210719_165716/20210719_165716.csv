@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_4,Firefox 90.0,,,2021-07-19 16:57:52,2021-07-19 17:00:01,2m - 9.117s,PASSED
+,,,,,,,
+Test Cases/Prueba_1/Caso_1,Firefox 90.0,,,2021-07-19 16:57:52,2021-07-19 16:58:23,30.829s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:57:53,2021-07-19 16:58:05,11.775s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Firefox 90.0,,,2021-07-19 16:58:05,2021-07-19 16:58:10,5.466s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:58:10,2021-07-19 16:58:11,0.401s,PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up""))",Firefox 90.0,,,2021-07-19 16:58:11,2021-07-19 16:58:12,1.798s,PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/span_Text Box""))",Firefox 90.0,,,2021-07-19 16:58:12,2021-07-19 16:58:13,0.962s,PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName""))",Firefox 90.0,,,2021-07-19 16:58:13,2021-07-19 16:58:14,0.827s,PASSED
+"setText(findTestObject(""Prueba_1/Page_ToolsQA/input_Full Name_userName""), ""Rodrigo"")",Firefox 90.0,,,2021-07-19 16:58:14,2021-07-19 16:58:15,0.834s,PASSED
+"nombre = getAttribute(findTestObject(""Prueba_1/Page_ToolsQA/input_Full Name_userName""), ""value"")",Firefox 90.0,,,2021-07-19 16:58:15,2021-07-19 16:58:16,0.565s,PASSED
+print(nombre),Firefox 90.0,,,2021-07-19 16:58:16,2021-07-19 16:58:16,0.007s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/input_Email_userEmail""), ""rodrigo@gmail.com"")",Firefox 90.0,,,2021-07-19 16:58:16,2021-07-19 16:58:16,0.708s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/textarea_Current Address_currentAddress""), ""dirección_uno"")",Firefox 90.0,,,2021-07-19 16:58:16,2021-07-19 16:58:17,0.847s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""dirección dos"")",Firefox 90.0,,,2021-07-19 16:58:17,2021-07-19 16:58:19,1.388s,PASSED
+"scrollToPosition(0, 120)",Firefox 90.0,,,2021-07-19 16:58:19,2021-07-19 16:58:19,0.032s,PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_ToolsQA/button_Submit""))",Firefox 90.0,,,2021-07-19 16:58:19,2021-07-19 16:58:19,0.831s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:58:19,2021-07-19 16:58:23,3.440s,PASSED
+,,,,,,,
+Test Cases/Prueba_1/Caso_2,Firefox 90.0,,,2021-07-19 16:58:23,2021-07-19 16:58:44,21.223s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:58:24,2021-07-19 16:58:32,8.025s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Firefox 90.0,,,2021-07-19 16:58:32,2021-07-19 16:58:35,3.147s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:58:35,2021-07-19 16:58:36,0.346s,PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/div_Elements_card-up""))",Firefox 90.0,,,2021-07-19 16:58:36,2021-07-19 16:58:36,0.781s,PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/li_Text Box""))",Firefox 90.0,,,2021-07-19 16:58:36,2021-07-19 16:58:37,0.596s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/input_Full Name_userName""), ""Rodrigo"")",Firefox 90.0,,,2021-07-19 16:58:37,2021-07-19 16:58:38,0.687s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/input_Email_userEmail""), ""rodrigo@gmail.com"")",Firefox 90.0,,,2021-07-19 16:58:38,2021-07-19 16:58:38,0.643s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/textarea_Current Address_currentAddress""), ""Dir uno"")",Firefox 90.0,,,2021-07-19 16:58:38,2021-07-19 16:58:39,0.643s,PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""dir dos"")",Firefox 90.0,,,2021-07-19 16:58:39,2021-07-19 16:58:40,1.045s,PASSED
+"scrollToPosition(0, 120)",Firefox 90.0,,,2021-07-19 16:58:40,2021-07-19 16:58:40,0.048s,PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/button_Submit""))",Firefox 90.0,,,2021-07-19 16:58:40,2021-07-19 16:58:41,0.658s,PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/div_Text Box""))",Firefox 90.0,,,2021-07-19 16:58:41,2021-07-19 16:58:41,0.684s,PASSED
+"rightClick(findTestObject(""Object Repository/Prueba_2/Page_ToolsQA/div_Text Box""))",Firefox 90.0,,,2021-07-19 16:58:41,2021-07-19 16:58:42,0.599s,PASSED
+"verifyElementText(findTestObject(""Prueba_2/Page_ToolsQA/div_Text Box""), ""Text Box"")",Firefox 90.0,,,2021-07-19 16:58:42,2021-07-19 16:58:42,0.521s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:58:42,2021-07-19 16:58:44,1.731s,PASSED
+,,,,,,,
+Test Cases/Reto_script/Reto_script,Firefox 90.0,,,2021-07-19 16:58:44,2021-07-19 16:59:05,20.897s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:58:45,2021-07-19 16:58:55,10.147s,PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test/basic-first-form-demo.html"")",Firefox 90.0,,,2021-07-19 16:58:55,2021-07-19 16:58:58,2.611s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:58:58,2021-07-19 16:58:58,0.300s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/a_No, thanks""), 20)",Firefox 90.0,,,2021-07-19 16:58:58,2021-07-19 16:59:00,1.432s,PASSED
+"click(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/a_No, thanks""))",Firefox 90.0,,,2021-07-19 16:59:00,2021-07-19 16:59:00,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/input_Enter message_user-message""), ""Bienvenidos a Katalon"")",Firefox 90.0,,,2021-07-19 16:59:00,2021-07-19 16:59:01,0.852s,PASSED
+"click(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/button_Show Message""))",Firefox 90.0,,,2021-07-19 16:59:01,2021-07-19 16:59:02,0.676s,PASSED
+"scrollToPosition(0, 200)",Firefox 90.0,,,2021-07-19 16:59:02,2021-07-19 16:59:02,0.031s,PASSED
+"setText(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/input_Enter a_sum1""), ""5"")",Firefox 90.0,,,2021-07-19 16:59:02,2021-07-19 16:59:03,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/input_Enter b_sum2""), ""5"")",Firefox 90.0,,,2021-07-19 16:59:03,2021-07-19 16:59:03,0.610s,PASSED
+"click(findTestObject(""Object Repository/Reto_script/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/button_Get Total""))",Firefox 90.0,,,2021-07-19 16:59:03,2021-07-19 16:59:04,0.599s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:59:04,2021-07-19 16:59:05,1.341s,PASSED
+,,,,,,,
+Test Cases/Reto_select/Reto_select,Firefox 90.0,,,2021-07-19 16:59:05,2021-07-19 16:59:26,20.947s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:59:06,2021-07-19 16:59:14,7.701s,PASSED
+"navigateToUrl(""https://testsheepnz.github.io/BasicCalculator.html"")",Firefox 90.0,,,2021-07-19 16:59:14,2021-07-19 16:59:15,0.798s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:59:15,2021-07-19 16:59:15,0.292s,PASSED
+"scrollToElement(findTestObject(""Reto_select/Campo_1""), 0)",Firefox 90.0,,,2021-07-19 16:59:15,2021-07-19 16:59:16,0.508s,PASSED
+"scrollToElement(findTestObject(""Reto_select/Campo_1""), 0)",Firefox 90.0,,,2021-07-19 16:59:16,2021-07-19 16:59:16,0.472s,PASSED
+"setText(findTestObject(""Reto_select/Campo_1""), ""10"")",Firefox 90.0,,,2021-07-19 16:59:16,2021-07-19 16:59:17,0.670s,PASSED
+"a = getAttribute(findTestObject(""Reto_select/Campo_1""), ""value"")",Firefox 90.0,,,2021-07-19 16:59:17,2021-07-19 16:59:17,0.383s,PASSED
+"print(""Valor de a: "" + a)",Firefox 90.0,,,2021-07-19 16:59:17,2021-07-19 16:59:17,0.000s,PASSED
+"setText(findTestObject(""Reto_select/Campo_2""), ""5"")",Firefox 90.0,,,2021-07-19 16:59:17,2021-07-19 16:59:18,0.603s,PASSED
+"selectOptionByLabel(findTestObject(""Reto_select/Seleccionar_Operacion""), ""Multiply"", false)",Firefox 90.0,,,2021-07-19 16:59:18,2021-07-19 16:59:19,0.861s,PASSED
+"click(findTestObject(""Reto_select/Calcular""))",Firefox 90.0,,,2021-07-19 16:59:19,2021-07-19 16:59:19,0.567s,PASSED
+delay(0.5),Firefox 90.0,,,2021-07-19 16:59:19,2021-07-19 16:59:20,0.538s,PASSED
+"Resultado_1 = getText(findTestObject(""Reto_select/Respuesta""))",Firefox 90.0,,,2021-07-19 16:59:20,2021-07-19 16:59:20,0.571s,PASSED
+"print(""Hola"" + Resultado_1)",Firefox 90.0,,,2021-07-19 16:59:20,2021-07-19 16:59:20,0.001s,PASSED
+"click(findTestObject(""Reto_select/Limpiar""))",Firefox 90.0,,,2021-07-19 16:59:20,2021-07-19 16:59:21,0.535s,PASSED
+delay(0.5),Firefox 90.0,,,2021-07-19 16:59:21,2021-07-19 16:59:21,0.502s,PASSED
+"setText(findTestObject(""Reto_select/Campo_1""), ""50"")",Firefox 90.0,,,2021-07-19 16:59:21,2021-07-19 16:59:22,0.578s,PASSED
+"setText(findTestObject(""Reto_select/Campo_2""), ""5"")",Firefox 90.0,,,2021-07-19 16:59:22,2021-07-19 16:59:22,0.555s,PASSED
+"selectOptionByLabel(findTestObject(""Reto_select/Seleccionar_Operacion""), ""Divide"", false)",Firefox 90.0,,,2021-07-19 16:59:22,2021-07-19 16:59:23,0.793s,PASSED
+"click(findTestObject(""Reto_select/Calcular""))",Firefox 90.0,,,2021-07-19 16:59:23,2021-07-19 16:59:24,0.554s,PASSED
+delay(0.5),Firefox 90.0,,,2021-07-19 16:59:24,2021-07-19 16:59:24,0.505s,PASSED
+"click(findTestObject(""Reto_select/Limpiar""))",Firefox 90.0,,,2021-07-19 16:59:24,2021-07-19 16:59:25,0.693s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:59:25,2021-07-19 16:59:26,1.055s,PASSED
+,,,,,,,
+Test Cases/Reto_spy_web/Reto_spy_web,Firefox 90.0,,,2021-07-19 16:59:26,2021-07-19 16:59:46,20.429s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:59:27,2021-07-19 16:59:35,7.772s,PASSED
+"navigateToUrl(""http://opencart.abstracta.us/"")",Firefox 90.0,,,2021-07-19 16:59:35,2021-07-19 16:59:36,1.625s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:59:36,2021-07-19 16:59:37,0.283s,PASSED
+"scrollToPosition(0, 200)",Firefox 90.0,,,2021-07-19 16:59:37,2021-07-19 16:59:37,0.019s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/Page_Your Store/a_MacBook""))",Firefox 90.0,,,2021-07-19 16:59:37,2021-07-19 16:59:39,1.841s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/img""))",Firefox 90.0,,,2021-07-19 16:59:39,2021-07-19 16:59:40,1.221s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/button_""))",Firefox 90.0,,,2021-07-19 16:59:40,2021-07-19 16:59:40,0.664s,PASSED
+"setText(findTestObject(""Reto_spy_web/Page_MacBook/input_Qty_quantity""), ""2"")",Firefox 90.0,,,2021-07-19 16:59:40,2021-07-19 16:59:41,0.997s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/button_Add to Cart""))",Firefox 90.0,,,2021-07-19 16:59:41,2021-07-19 16:59:42,0.690s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/button_3 item(s) - 1,806.00""))",Firefox 90.0,,,2021-07-19 16:59:42,2021-07-19 16:59:43,0.684s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_MacBook/strong_View Cart""))",Firefox 90.0,,,2021-07-19 16:59:43,2021-07-19 16:59:44,0.906s,PASSED
+"scrollToPosition(0, 250)",Firefox 90.0,,,2021-07-19 16:59:44,2021-07-19 16:59:44,0.035s,PASSED
+"click(findTestObject(""Reto_spy_web/Page_Shopping Cart/a_Checkout""))",Firefox 90.0,,,2021-07-19 16:59:44,2021-07-19 16:59:45,1.475s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:59:45,2021-07-19 16:59:46,1.176s,PASSED
+,,,,,,,
+Test Cases/Reto_uno/Reto_uno,Firefox 90.0,,,2021-07-19 16:59:46,2021-07-19 17:00:01,14.202s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:59:47,2021-07-19 16:59:52,5.214s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Firefox 90.0,,,2021-07-19 16:59:52,2021-07-19 16:59:55,2.700s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:59:55,2021-07-19 16:59:55,0.268s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/div_Elements_card-up""))",Firefox 90.0,,,2021-07-19 16:59:55,2021-07-19 16:59:56,1.194s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/span_Check Box""))",Firefox 90.0,,,2021-07-19 16:59:56,2021-07-19 16:59:57,0.544s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-uncheck""))",Firefox 90.0,,,2021-07-19 16:59:57,2021-07-19 16:59:57,0.521s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-expand-close""))",Firefox 90.0,,,2021-07-19 16:59:57,2021-07-19 16:59:58,0.506s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/span_Radio Button""))",Firefox 90.0,,,2021-07-19 16:59:58,2021-07-19 16:59:59,0.518s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/label_Yes""))",Firefox 90.0,,,2021-07-19 16:59:59,2021-07-19 16:59:59,0.495s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/label_Impressive""))",Firefox 90.0,,,2021-07-19 16:59:59,2021-07-19 17:00:00,0.520s,PASSED
+"click(findTestObject(""Object Repository/Reto_uno/Page_ToolsQA/div_Radio Button""))",Firefox 90.0,,,2021-07-19 17:00:00,2021-07-19 17:00:00,0.501s,PASSED
+"verifyElementVisible(findTestObject(""Reto_uno/Page_ToolsQA/div_Radio Button""))",Firefox 90.0,,,2021-07-19 17:00:00,2021-07-19 17:00:00,0.335s,PASSED
+"verifyElementText(findTestObject(""Reto_uno/Page_ToolsQA/div_Radio Button""), ""Radio Button"")",Firefox 90.0,,,2021-07-19 17:00:00,2021-07-19 17:00:01,0.310s,PASSED

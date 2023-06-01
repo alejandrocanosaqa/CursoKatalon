@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion_2,Chrome 92.0.4515.131,,,2021-08-16 12:13:46,2021-08-16 12:14:27,41.155s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,Chrome 92.0.4515.131,,,2021-08-16 12:13:46,2021-08-16 12:14:03,17.637s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 12:13:46,2021-08-16 12:13:48,2.031s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 92.0.4515.131,,,2021-08-16 12:13:48,2021-08-16 12:13:50,2.259s,PASSED
+maximizeWindow(),Chrome 92.0.4515.131,,,2021-08-16 12:13:50,2021-08-16 12:13:50,0.141s,PASSED
+waitForPageLoad(5),Chrome 92.0.4515.131,,,2021-08-16 12:13:50,2021-08-16 12:13:50,0.085s,PASSED
+"for ([x = 1, x <= 4, (x++)])",Chrome 92.0.4515.131,,,2021-08-16 12:13:50,2021-08-16 12:14:03,12.336s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-16 12:14:03,2021-08-16 12:14:03,0.588s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 92.0.4515.131,,,2021-08-16 12:14:03,2021-08-16 12:14:26,23.121s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 12:14:03,2021-08-16 12:14:05,1.073s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 92.0.4515.131,,,2021-08-16 12:14:05,2021-08-16 12:14:05,0.691s,PASSED
+Bandera = 0,Chrome 92.0.4515.131,,,2021-08-16 12:14:05,2021-08-16 12:14:05,0.000s,PASSED
+while (Bandera != 1),Chrome 92.0.4515.131,,,2021-08-16 12:14:05,2021-08-16 12:14:26,21.221s,PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 92.0.4515.131,,,2021-08-16 12:14:26,2021-08-16 12:14:27,0.132s,PASSED
+if (num == 10),Chrome 92.0.4515.131,,,2021-08-16 12:14:27,2021-08-16 12:14:27,0.000s,PASSED
+else,Chrome 92.0.4515.131,,,2021-08-16 12:14:27,2021-08-16 12:14:27,0.001s,PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 92.0.4515.131,,,2021-08-16 12:14:27,2021-08-16 12:14:27,0.107s,PASSED
+if (num == 5),Chrome 92.0.4515.131,,,2021-08-16 12:14:27,2021-08-16 12:14:27,0.000s,PASSED
+if (num == 10),Chrome 92.0.4515.131,,,2021-08-16 12:14:27,2021-08-16 12:14:27,0.001s,PASSED

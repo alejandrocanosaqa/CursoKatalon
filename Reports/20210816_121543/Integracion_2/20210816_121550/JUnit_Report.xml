@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integracion_2" time="40.593" tests="4" failures="0" errors="0">
+   <testsuite name="Integracion_2" tests="4" failures="0" errors="0" time="40.593" skipped="0" timestamp="2021-08-16 12:16:00" hostname="DESKTOP-3P0QFSE$ - DESKTOP-3P0QFSE" id="Test Suites/Integracion_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210816_121543\\Integracion_2\\20210816_121550"/>
+         <property name="logFiles" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210816_121543\\Integracion_2\\20210816_121550\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-3P0QFSE$ - DESKTOP-3P0QFSE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 92.0.4515.131"/>
+         <property name="hostAddress" value="192.168.100.48"/>
+         <property name="sessionId" value="7bee22093e3f0d1a333c76af201832be"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BUCLES/Reto_For" time="17.591" classname="Test Cases/BUCLES/Reto_For" status="PASSED">
+         <system-out><![CDATA[2021-08-16 12:16:00 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_For: Test Cases/BUCLES/Reto_For
+
+2021-08-16 12:16:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-08-16 12:16:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-08-16 12:16:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-16 12:16:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-08-16 12:16:02 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2021-08-16 12:16:04 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2021-08-16 12:16:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-08-16 12:16:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-08-16 12:16:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - for ([x = 1, x <= 4, (x++)]): Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2021-08-16 12:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:06 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:06 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:07 - [MESSAGE][PASSED] - Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:08 - [MESSAGE][PASSED] - Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2021-08-16 12:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:09 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:09 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:10 - [MESSAGE][PASSED] - Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:11 - [MESSAGE][PASSED] - Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2021-08-16 12:16:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Rodrigo' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:12 - [MESSAGE][PASSED] - Text 'Rodrigo' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Rodrigo@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:12 - [MESSAGE][PASSED] - Text 'Rodrigo@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:13 - [MESSAGE][PASSED] - Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:14 - [MESSAGE][PASSED] - Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2021-08-16 12:16:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:15 - [MESSAGE][PASSED] - Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2021-08-16 12:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:15 - [MESSAGE][PASSED] - Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2021-08-16 12:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:16 - [MESSAGE][PASSED] - Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2021-08-16 12:16:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:17 - [MESSAGE][PASSED] - Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2021-08-16 12:16:17 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2021-08-16 12:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2021-08-16 12:16:17 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2021-08-16 12:16:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-08-16 12:16:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="22.144" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2021-08-16 12:16:17 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2021-08-16 12:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-08-16 12:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-08-16 12:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-16 12:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-08-16 12:16:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2021-08-16 12:16:19 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2021-08-16 12:16:19 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:19 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2021-08-16 12:16:19 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:20 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:22 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:24 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:25 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2021-08-16 12:16:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:27 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:28 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:30 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:32 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:33 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2021-08-16 12:16:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:35 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2021-08-16 12:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:37 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2021-08-16 12:16:38 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2021-08-16 12:16:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2021-08-16 12:16:39 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2021-08-16 12:16:39 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2021-08-16 12:16:39 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2021-08-16 12:16:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-08-16 12:16:40 - [MESSAGE][PASSED] - Browser is closed
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.126" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2021-08-16 12:16:40 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - else: null
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.1" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2021-08-16 12:16:40 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2021-08-16 12:16:40 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-16 12:16:00 - [TEST_SUITE][PASSED] - Integracion_2: Test Cases/Condicionales_If/Test_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_1,Firefox 90.0,,,2021-07-19 22:52:31,2021-07-19 22:52:54,23.172s,FAILED
+,,,,,,,
+Test Cases/Carga_2/Carga_2,Firefox 90.0,,,2021-07-19 22:52:31,2021-07-19 22:52:41,9.728s,FAILED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 22:52:32,2021-07-19 22:52:37,5.517s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Firefox 90.0,,,2021-07-19 22:52:37,2021-07-19 22:52:38,0.831s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 22:52:38,2021-07-19 22:52:39,0.319s,PASSED
+"uploadFile(findTestObject(""Carga2/Page_Upload a File/Cargar""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Firefox 90.0,,,2021-07-19 22:52:39,2021-07-19 22:52:39,0.376s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_What type is it_filetype""))",Firefox 90.0,,,2021-07-19 22:52:39,2021-07-19 22:52:39,0.552s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_A General File_upload""))",Firefox 90.0,,,2021-07-19 22:52:39,2021-07-19 22:52:41,1.578s,PASSED
+delay(Delay_tiempo),Firefox 90.0,,,2021-07-19 22:52:41,2021-07-19 22:52:41,0.099s,FAILED
+,,,,,,,
+Test Cases/Carga_upload_1/Carga_1,Firefox 90.0,,,2021-07-19 22:52:41,2021-07-19 22:52:54,13.137s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 22:52:42,2021-07-19 22:52:46,4.560s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Firefox 90.0,,,2021-07-19 22:52:46,2021-07-19 22:52:47,0.839s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 22:52:47,2021-07-19 22:52:47,0.274s,PASSED
+"uploadFile(findTestObject(""Carga_1/Page_Upload a File/carga""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Firefox 90.0,,,2021-07-19 22:52:47,2021-07-19 22:52:48,0.321s,PASSED
+delay(2),Firefox 90.0,,,2021-07-19 22:52:48,2021-07-19 22:52:50,2.003s,PASSED
+"click(findTestObject(""Object Repository/Carga_1/Page_Upload a File/input_What type is it_filetype""))",Firefox 90.0,,,2021-07-19 22:52:50,2021-07-19 22:52:50,0.494s,PASSED
+"click(findTestObject(""Carga_1/Page_Upload a File/Subir""))",Firefox 90.0,,,2021-07-19 22:52:50,2021-07-19 22:52:52,1.585s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 22:52:52,2021-07-19 22:52:52,0.648s,PASSED
+delay(2),Firefox 90.0,,,2021-07-19 22:52:52,2021-07-19 22:52:54,2.008s,PASSED

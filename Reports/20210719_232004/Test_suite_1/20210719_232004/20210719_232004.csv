@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_1,Chrome 91.0.4472.164,,,2021-07-19 23:20:16,2021-07-19 23:20:32,16.434s,FAILED
+,,,,,,,
+Test Cases/Carga_2/Carga_2,Chrome 91.0.4472.164,,,2021-07-19 23:20:16,2021-07-19 23:20:23,6.450s,FAILED
+"openBrowser("""")",Chrome 91.0.4472.164,,,2021-07-19 23:20:17,2021-07-19 23:20:20,2.884s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 91.0.4472.164,,,2021-07-19 23:20:20,2021-07-19 23:20:20,0.883s,PASSED
+maximizeWindow(),Chrome 91.0.4472.164,,,2021-07-19 23:20:20,2021-07-19 23:20:21,0.156s,PASSED
+"uploadFile(findTestObject(""Carga2/Page_Upload a File/Cargar""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Chrome 91.0.4472.164,,,2021-07-19 23:20:21,2021-07-19 23:20:21,0.446s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_What type is it_filetype""))",Chrome 91.0.4472.164,,,2021-07-19 23:20:21,2021-07-19 23:20:21,0.376s,PASSED
+"click(findTestObject(""Object Repository/Carga2/Page_Upload a File/input_A General File_upload""))",Chrome 91.0.4472.164,,,2021-07-19 23:20:21,2021-07-19 23:20:23,1.093s,PASSED
+delay(Delay_tiempo),Chrome 91.0.4472.164,,,2021-07-19 23:20:23,2021-07-19 23:20:23,0.106s,FAILED
+,,,,,,,
+Test Cases/Carga_upload_1/Carga_1,Chrome 91.0.4472.164,,,2021-07-19 23:20:23,2021-07-19 23:20:32,9.671s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.164,,,2021-07-19 23:20:23,2021-07-19 23:20:25,1.790s,PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 91.0.4472.164,,,2021-07-19 23:20:25,2021-07-19 23:20:26,0.844s,PASSED
+maximizeWindow(),Chrome 91.0.4472.164,,,2021-07-19 23:20:26,2021-07-19 23:20:26,0.139s,PASSED
+"uploadFile(findTestObject(""Carga_1/Page_Upload a File/carga""), ""C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg"")",Chrome 91.0.4472.164,,,2021-07-19 23:20:26,2021-07-19 23:20:26,0.344s,PASSED
+delay(2),Chrome 91.0.4472.164,,,2021-07-19 23:20:26,2021-07-19 23:20:28,2.004s,PASSED
+"click(findTestObject(""Object Repository/Carga_1/Page_Upload a File/input_What type is it_filetype""))",Chrome 91.0.4472.164,,,2021-07-19 23:20:28,2021-07-19 23:20:29,0.349s,PASSED
+"click(findTestObject(""Carga_1/Page_Upload a File/Subir""))",Chrome 91.0.4472.164,,,2021-07-19 23:20:29,2021-07-19 23:20:30,1.090s,PASSED
+closeBrowser(),Chrome 91.0.4472.164,,,2021-07-19 23:20:30,2021-07-19 23:20:30,0.698s,PASSED
+delay(2),Chrome 91.0.4472.164,,,2021-07-19 23:20:30,2021-07-19 23:20:32,2.002s,PASSED

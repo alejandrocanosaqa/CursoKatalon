@@ -1,0 +1,28 @@
+1
+00:00:00,550 --> 00:00:03,955
+1. openBrowser("")
+
+2
+00:00:03,975 --> 00:00:04,938
+5. navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html")
+
+3
+00:00:04,939 --> 00:00:05,150
+9. maximizeWindow()
+
+4
+00:00:05,151 --> 00:00:05,642
+13. uploadFile(findTestObject("Carga2/Page_Upload a File/Cargar"), "C:\Todo_Katalon\Proyectos\Proyecto_uno\Imagenes\carro_1.jpg")
+
+5
+00:00:05,643 --> 00:00:06,075
+17. click(findTestObject("Object Repository/Carga2/Page_Upload a File/input_What type is it_filetype"))
+
+6
+00:00:06,075 --> 00:00:07,267
+21. click(findTestObject("Object Repository/Carga2/Page_Upload a File/input_A General File_upload"))
+
+7
+00:00:07,267 --> 00:00:07,403
+25. delay(Delay_tiempo)
+

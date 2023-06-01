@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C2186ED4285AA3E5805A179496B8A2D2",
+  "keywordClasses": [
+    {
+      "name": "com.helper.browser.OpenBrowser",
+      "keywordMethods": [
+        {
+          "name": "OpenBro",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

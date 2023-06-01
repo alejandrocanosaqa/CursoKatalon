@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/While_google/Page_10 - Buscar con Google/a_Imgenes",
+      "brokenLocator": "//div[@id\u003d\u0027hdtb-msb\u0027]/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Imágenes\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/While_google/Page_10 - Buscar con Google/a_Imgenes_link.png"
+    }
+  ]
+}

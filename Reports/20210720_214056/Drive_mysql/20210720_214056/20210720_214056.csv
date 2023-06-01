@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Drive_mysql,Chrome 91.0.4472.164,,,2021-07-20 21:41:10,2021-07-20 21:41:31,21.034s,PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 91.0.4472.164,,,2021-07-20 21:41:10,2021-07-20 21:41:21,11.195s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.164,,,2021-07-20 21:41:11,2021-07-20 21:41:13,2.782s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 91.0.4472.164,,,2021-07-20 21:41:13,2021-07-20 21:41:16,2.513s,PASSED
+waitForPageLoad(40),Chrome 91.0.4472.164,,,2021-07-20 21:41:16,2021-07-20 21:41:16,0.195s,PASSED
+maximizeWindow(),Chrome 91.0.4472.164,,,2021-07-20 21:41:16,2021-07-20 21:41:16,0.161s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 91.0.4472.164,,,2021-07-20 21:41:16,2021-07-20 21:41:17,1.079s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 91.0.4472.164,,,2021-07-20 21:41:17,2021-07-20 21:41:18,0.639s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 91.0.4472.164,,,2021-07-20 21:41:18,2021-07-20 21:41:19,0.646s,PASSED
+delay(2),Chrome 91.0.4472.164,,,2021-07-20 21:41:19,2021-07-20 21:41:21,2.035s,PASSED
+closeBrowser(),Chrome 91.0.4472.164,,,2021-07-20 21:41:21,2021-07-20 21:41:21,0.652s,PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 91.0.4472.164,,,2021-07-20 21:41:21,2021-07-20 21:41:31,9.298s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.164,,,2021-07-20 21:41:21,2021-07-20 21:41:23,1.246s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 91.0.4472.164,,,2021-07-20 21:41:23,2021-07-20 21:41:25,2.424s,PASSED
+waitForPageLoad(40),Chrome 91.0.4472.164,,,2021-07-20 21:41:25,2021-07-20 21:41:25,0.017s,PASSED
+maximizeWindow(),Chrome 91.0.4472.164,,,2021-07-20 21:41:25,2021-07-20 21:41:25,0.180s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 91.0.4472.164,,,2021-07-20 21:41:25,2021-07-20 21:41:27,1.410s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 91.0.4472.164,,,2021-07-20 21:41:27,2021-07-20 21:41:27,0.659s,PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 91.0.4472.164,,,2021-07-20 21:41:27,2021-07-20 21:41:28,0.640s,PASSED
+delay(2),Chrome 91.0.4472.164,,,2021-07-20 21:41:28,2021-07-20 21:41:30,2.004s,PASSED
+closeBrowser(),Chrome 91.0.4472.164,,,2021-07-20 21:41:30,2021-07-20 21:41:31,0.706s,PASSED

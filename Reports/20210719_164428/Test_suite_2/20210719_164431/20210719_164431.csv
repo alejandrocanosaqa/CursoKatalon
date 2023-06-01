@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_2,Firefox 90.0,,,2021-07-19 16:44:54,2021-07-19 16:46:22,1m - 28.488s,PASSED
+,,,,,,,
+Test Cases/Google/google,Firefox 90.0,,,2021-07-19 16:44:54,2021-07-19 16:45:12,17.673s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:44:55,2021-07-19 16:45:02,7.456s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Firefox 90.0,,,2021-07-19 16:45:02,2021-07-19 16:45:03,1.063s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:45:03,2021-07-19 16:45:04,0.313s,PASSED
+waitForPageLoad(5),Firefox 90.0,,,2021-07-19 16:45:04,2021-07-19 16:45:04,0.321s,PASSED
+"setText(findTestObject(""Google/Buscar""), ""ferr"")",Firefox 90.0,,,2021-07-19 16:45:04,2021-07-19 16:45:05,0.798s,PASSED
+"waitForElementPresent(findTestObject(""Google/Ferrari""), 2)",Firefox 90.0,,,2021-07-19 16:45:05,2021-07-19 16:45:06,0.767s,PASSED
+"click(findTestObject(""Google/Ferrari""))",Firefox 90.0,,,2021-07-19 16:45:06,2021-07-19 16:45:08,1.939s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:45:08,2021-07-19 16:45:11,3.049s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:45:11,2021-07-19 16:45:12,1.108s,PASSED
+,,,,,,,
+Test Cases/Google2/test1,Firefox 90.0,,,2021-07-19 16:45:12,2021-07-19 16:45:28,16.273s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:45:12,2021-07-19 16:45:18,6.279s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Firefox 90.0,,,2021-07-19 16:45:18,2021-07-19 16:45:20,1.092s,PASSED
+waitForPageLoad(30),Firefox 90.0,,,2021-07-19 16:45:20,2021-07-19 16:45:20,0.030s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:45:20,2021-07-19 16:45:20,0.308s,PASSED
+"setText(findTestObject(""google2/Buscar""), ""fer"")",Firefox 90.0,,,2021-07-19 16:45:20,2021-07-19 16:45:21,0.688s,PASSED
+"waitForElementVisible(findTestObject(""google2/Ferrari""), 3)",Firefox 90.0,,,2021-07-19 16:45:21,2021-07-19 16:45:21,0.703s,PASSED
+"click(findTestObject(""google2/Ferrari""))",Firefox 90.0,,,2021-07-19 16:45:21,2021-07-19 16:45:23,1.763s,PASSED
+delay(4),Firefox 90.0,,,2021-07-19 16:45:23,2021-07-19 16:45:27,4.003s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:45:27,2021-07-19 16:45:28,0.880s,PASSED
+,,,,,,,
+Test Cases/Mouse_double_click/Test_1,Firefox 90.0,,,2021-07-19 16:45:28,2021-07-19 16:45:39,11.479s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:45:28,2021-07-19 16:45:33,5.012s,PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"")",Firefox 90.0,,,2021-07-19 16:45:33,2021-07-19 16:45:36,2.167s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:45:36,2021-07-19 16:45:36,0.295s,PASSED
+waitForPageLoad(30),Firefox 90.0,,,2021-07-19 16:45:36,2021-07-19 16:45:36,0.066s,PASSED
+"click(findTestObject(""Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Firefox 90.0,,,2021-07-19 16:45:36,2021-07-19 16:45:38,1.580s,PASSED
+"waitForElementClickable(findTestObject(""Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""), 5)",Firefox 90.0,,,2021-07-19 16:45:38,2021-07-19 16:45:38,0.379s,PASSED
+"doubleClick(findTestObject(""Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Firefox 90.0,,,2021-07-19 16:45:38,2021-07-19 16:45:38,0.485s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:45:38,2021-07-19 16:45:39,0.985s,PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over,Firefox 90.0,,,2021-07-19 16:45:39,2021-07-19 16:45:55,15.631s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:45:40,2021-07-19 16:45:45,4.998s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Firefox 90.0,,,2021-07-19 16:45:45,2021-07-19 16:45:47,2.021s,PASSED
+waitForPageLoad(40),Firefox 90.0,,,2021-07-19 16:45:47,2021-07-19 16:45:47,0.018s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:45:47,2021-07-19 16:45:47,0.271s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Firefox 90.0,,,2021-07-19 16:45:47,2021-07-19 16:45:48,0.569s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:45:48,2021-07-19 16:45:51,3.004s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Dress""))",Firefox 90.0,,,2021-07-19 16:45:51,2021-07-19 16:45:51,0.480s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:45:51,2021-07-19 16:45:54,3.002s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:45:54,2021-07-19 16:45:55,0.782s,PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over2,Firefox 90.0,,,2021-07-19 16:45:55,2021-07-19 16:46:14,18.530s,PASSED
+"openBrowser("""")",Firefox 90.0,,,2021-07-19 16:45:56,2021-07-19 16:46:00,4.461s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Firefox 90.0,,,2021-07-19 16:46:00,2021-07-19 16:46:02,2.236s,PASSED
+waitForPageLoad(40),Firefox 90.0,,,2021-07-19 16:46:02,2021-07-19 16:46:02,0.012s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:46:02,2021-07-19 16:46:02,0.260s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Firefox 90.0,,,2021-07-19 16:46:02,2021-07-19 16:46:03,0.457s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:46:03,2021-07-19 16:46:06,3.001s,PASSED
+"mouseOverOffset(findTestObject(""Mouse_over/Woman""), 80, 0)",Firefox 90.0,,,2021-07-19 16:46:06,2021-07-19 16:46:06,0.427s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:46:06,2021-07-19 16:46:09,3.003s,PASSED
+"rightClick(findTestObject(""Mouse_over/Woman""))",Firefox 90.0,,,2021-07-19 16:46:09,2021-07-19 16:46:10,0.467s,PASSED
+delay(3),Firefox 90.0,,,2021-07-19 16:46:10,2021-07-19 16:46:13,3.003s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:46:13,2021-07-19 16:46:14,0.753s,PASSED
+,,,,,,,
+Test Cases/Navegador/Navegador,Firefox 90.0,,,2021-07-19 16:46:14,2021-07-19 16:46:22,8.533s,PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Firefox 90.0,,,2021-07-19 16:46:14,2021-07-19 16:46:21,6.996s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:21,0.269s,PASSED
+page_url = getUrl(),Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:21,0.030s,PASSED
+print(page_url),Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:21,0.005s,PASSED
+Titulo = getWindowTitle(),Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:21,0.024s,PASSED
+"print(""titiulo de la pagina"" + Titulo)",Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:21,0.001s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-19 16:46:21,2021-07-19 16:46:22,0.828s,PASSED

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data_excel" time="49.015" tests="5" failures="0" errors="0">
+   <testsuite name="Data_excel" tests="5" failures="0" errors="0" time="49.015" skipped="0" timestamp="2021-07-20 21:01:07" hostname="rodrigo.villanueva.c - EELX01RODRIGOVI.ad.gob" id="Test Suites/Data_excel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210720_210053\\Data_excel\\20210720_210053"/>
+         <property name="logFiles" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210720_210053\\Data_excel\\20210720_210053\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rodrigo.villanueva.c - EELX01RODRIGOVI.ad.gob"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.164"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="35329b83aebc914602ef01cd782443a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="11.253" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2021-07-20 21:01:07 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2021-07-20 21:01:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-20 21:01:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-20 21:01:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-20 21:01:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-20 21:01:10 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:13 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-20 21:01:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-20 21:01:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-20 21:01:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-20 21:01:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:14 - [MESSAGE][PASSED] - Text 'nombre1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:15 - [MESSAGE][PASSED] - Text 'apellido1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:16 - [MESSAGE][PASSED] - Text 'email@gmail.com1' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-07-20 21:01:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-20 21:01:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-20 21:01:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="9.311" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2021-07-20 21:01:18 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2021-07-20 21:01:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-20 21:01:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-20 21:01:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-20 21:01:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-20 21:01:20 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:23 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:23 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-20 21:01:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-20 21:01:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-20 21:01:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-20 21:01:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:24 - [MESSAGE][PASSED] - Text 'nombre2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:24 - [MESSAGE][PASSED] - Text 'apellido2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:25 - [MESSAGE][PASSED] - Text 'email@gmail.com2' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-07-20 21:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-20 21:01:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-20 21:01:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="8.908" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2021-07-20 21:01:28 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2021-07-20 21:01:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-20 21:01:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-20 21:01:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-20 21:01:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-20 21:01:29 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:31 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:31 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-20 21:01:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-20 21:01:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-20 21:01:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-20 21:01:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:33 - [MESSAGE][PASSED] - Text 'nombre3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:33 - [MESSAGE][PASSED] - Text 'apellido3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:34 - [MESSAGE][PASSED] - Text 'email@gmail.com3' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-07-20 21:01:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-20 21:01:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-20 21:01:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="9.34" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2021-07-20 21:01:37 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2021-07-20 21:01:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-20 21:01:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-20 21:01:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-20 21:01:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-20 21:01:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:41 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:41 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-20 21:01:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-20 21:01:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-20 21:01:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-20 21:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:42 - [MESSAGE][PASSED] - Text 'nombre4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:43 - [MESSAGE][PASSED] - Text 'apellido4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:43 - [MESSAGE][PASSED] - Text 'email@gmail.com4' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-07-20 21:01:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-20 21:01:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-20 21:01:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="8.997" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2021-07-20 21:01:46 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2021-07-20 21:01:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-20 21:01:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-20 21:01:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-20 21:01:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-20 21:01:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2021-07-20 21:01:50 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-20 21:01:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-20 21:01:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-20 21:01:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-20 21:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:51 - [MESSAGE][PASSED] - Text 'nombre5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2021-07-20 21:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:52 - [MESSAGE][PASSED] - Text 'apellido5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2021-07-20 21:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:52 - [MESSAGE][PASSED] - Text 'email@gmail.com5' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2021-07-20 21:01:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-07-20 21:01:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-20 21:01:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-20 21:01:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-20 21:01:07 - [TEST_SUITE][PASSED] - Data_excel: Test Cases/Drive_excel/Drive_excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

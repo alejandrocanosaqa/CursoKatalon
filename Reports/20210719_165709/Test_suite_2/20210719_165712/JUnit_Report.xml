@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_suite_2" time="127.962" tests="6" failures="0" errors="0">
+   <testsuite name="Test_suite_2" tests="6" failures="0" errors="0" time="127.962" skipped="0" timestamp="2021-07-19 16:57:38" hostname="rodrigo.villanueva.c - EELX01RODRIGOVI.ad.gob" id="Test Suites/Test_suite_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210719_165709\\Test_suite_2\\20210719_165712"/>
+         <property name="logFiles" value="C:\\Todo_Katalon\\Proyectos\\Proyecto_uno\\Reports\\20210719_165709\\Test_suite_2\\20210719_165712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rodrigo.villanueva.c - EELX01RODRIGOVI.ad.gob"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Firefox 90.0"/>
+         <property name="hostAddress" value="10.255.249.109"/>
+         <property name="sessionId" value="63170ef0-9969-4255-b824-fad334cadf0f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Google/google" time="20.844" classname="Test Cases/Google/google" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:57:39 - [TEST_CASE][PASSED] - Test Cases/Google/google: Test Cases/Google/google
+
+2021-07-19 16:57:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-19 16:57:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:57:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:57:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-19 16:57:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2021-07-19 16:57:49 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2021-07-19 16:57:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:57:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:57:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-07-19 16:57:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-19 16:57:49 - [TEST_STEP][PASSED] - setText(findTestObject("Google/Buscar"), "ferr"): Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2021-07-19 16:57:50 - [MESSAGE][PASSED] - Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2021-07-19 16:57:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Google/Ferrari"), 2): Object 'Object Repository/Google/Ferrari' is present
+
+2021-07-19 16:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Google/Ferrari' is present
+
+2021-07-19 16:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Google/Ferrari")): Object: 'Object Repository/Google/Ferrari' is clicked on
+
+2021-07-19 16:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Ferrari' is clicked on
+
+2021-07-19 16:57:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:57:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:57:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:57:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Google2/test1" time="25.513" classname="Test Cases/Google2/test1" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:58:00 - [TEST_CASE][PASSED] - Test Cases/Google2/test1: Test Cases/Google2/test1
+
+2021-07-19 16:58:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-19 16:58:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:58:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:58:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-19 16:58:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2021-07-19 16:58:12 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2021-07-19 16:58:12 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2021-07-19 16:58:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-19 16:58:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:58:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:58:12 - [TEST_STEP][PASSED] - setText(findTestObject("google2/Buscar"), "fer"): Text 'fer' is set on object 'Object Repository/google2/Buscar'
+
+2021-07-19 16:58:13 - [MESSAGE][PASSED] - Text 'fer' is set on object 'Object Repository/google2/Buscar'
+
+2021-07-19 16:58:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("google2/Ferrari"), 3): Object 'Object Repository/google2/Ferrari' is visible
+
+2021-07-19 16:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/google2/Ferrari' is visible
+
+2021-07-19 16:58:14 - [TEST_STEP][PASSED] - click(findTestObject("google2/Ferrari")): Object: 'Object Repository/google2/Ferrari' is clicked on
+
+2021-07-19 16:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/google2/Ferrari' is clicked on
+
+2021-07-19 16:58:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-07-19 16:58:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-07-19 16:58:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:58:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mouse_double_click/Test_1" time="19.02" classname="Test Cases/Mouse_double_click/Test_1" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:58:25 - [TEST_CASE][PASSED] - Test Cases/Mouse_double_click/Test_1: Test Cases/Mouse_double_click/Test_1
+
+2021-07-19 16:58:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-19 16:58:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:58:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:58:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-19 16:58:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"): Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2021-07-19 16:58:39 - [MESSAGE][PASSED] - Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2021-07-19 16:58:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:58:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:58:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2021-07-19 16:58:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-19 16:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island")): Object: 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clicked on
+
+2021-07-19 16:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clicked on
+
+2021-07-19 16:58:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island"), 5): Object 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clickable
+
+2021-07-19 16:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clickable
+
+2021-07-19 16:58:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island")): Object: 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is double clicked on
+
+2021-07-19 16:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is double clicked on
+
+2021-07-19 16:58:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:58:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mouse_over/Mouse_over" time="21.572" classname="Test Cases/Mouse_over/Mouse_over" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:58:44 - [TEST_CASE][PASSED] - Test Cases/Mouse_over/Mouse_over: Test Cases/Mouse_over/Mouse_over
+
+2021-07-19 16:58:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-19 16:58:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:58:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:58:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-19 16:58:54 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-07-19 16:58:57 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-07-19 16:58:57 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-19 16:58:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-19 16:58:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:58:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:58:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Mouse_over/Woman")): Object: 'Object Repository/Mouse_over/Woman' is hovered
+
+2021-07-19 16:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Mouse_over/Woman' is hovered
+
+2021-07-19 16:58:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:59:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:59:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Mouse_over/Dress")): Object: 'Object Repository/Mouse_over/Dress' is hovered
+
+2021-07-19 16:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Mouse_over/Dress' is hovered
+
+2021-07-19 16:59:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:59:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:59:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mouse_over/Mouse_over2" time="23.83" classname="Test Cases/Mouse_over/Mouse_over2" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:59:06 - [TEST_CASE][PASSED] - Test Cases/Mouse_over/Mouse_over2: Test Cases/Mouse_over/Mouse_over2
+
+2021-07-19 16:59:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-19 16:59:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:59:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:59:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-19 16:59:14 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-07-19 16:59:17 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-07-19 16:59:17 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2021-07-19 16:59:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-19 16:59:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:59:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:59:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Mouse_over/Woman")): Object: 'Object Repository/Mouse_over/Woman' is hovered
+
+2021-07-19 16:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Mouse_over/Woman' is hovered
+
+2021-07-19 16:59:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:59:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:59:21 - [TEST_STEP][PASSED] - mouseOverOffset(findTestObject("Mouse_over/Woman"), 80, 0): Object: 'Object Repository/Mouse_over/Woman' is hovered using offset x = 80 and y = 0
+
+2021-07-19 16:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Mouse_over/Woman' is hovered using offset x = 80 and y = 0
+
+2021-07-19 16:59:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:59:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:59:24 - [TEST_STEP][PASSED] - rightClick(findTestObject("Mouse_over/Woman")): Object: 'Object Repository/Mouse_over/Woman' is right clicked on
+
+2021-07-19 16:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Mouse_over/Woman' is right clicked on
+
+2021-07-19 16:59:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 16:59:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 16:59:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:59:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navegador/Navegador" time="15.81" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2021-07-19 16:59:30 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2021-07-19 16:59:31 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2021-07-19 16:59:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-19 16:59:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-19 16:59:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-19 16:59:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2021-07-19 16:59:44 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - print(page_url): null
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2021-07-19 16:59:44 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - print("titiulo de la pagina" + Titulo): null
+
+2021-07-19 16:59:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 16:59:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-19 16:57:38 - [TEST_SUITE][PASSED] - Test_suite_2: Test Cases/Navegador/Navegador]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion_2,Chrome 92.0.4515.131,,,2021-08-16 12:10:46,2021-08-16 12:11:15,29.178s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,Chrome 92.0.4515.131,,,2021-08-16 12:10:46,2021-08-16 12:11:05,18.618s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 12:10:46,2021-08-16 12:10:49,2.375s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 92.0.4515.131,,,2021-08-16 12:10:49,2021-08-16 12:10:51,2.443s,PASSED
+maximizeWindow(),Chrome 92.0.4515.131,,,2021-08-16 12:10:51,2021-08-16 12:10:51,0.160s,PASSED
+waitForPageLoad(5),Chrome 92.0.4515.131,,,2021-08-16 12:10:51,2021-08-16 12:10:51,0.247s,PASSED
+"for ([x = 1, x <= 4, (x++)])",Chrome 92.0.4515.131,,,2021-08-16 12:10:51,2021-08-16 12:11:04,12.403s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-16 12:11:04,2021-08-16 12:11:05,0.665s,PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 92.0.4515.131,,,2021-08-16 12:11:05,2021-08-16 12:11:14,9.759s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-16 12:11:05,2021-08-16 12:11:06,1.107s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 92.0.4515.131,,,2021-08-16 12:11:06,2021-08-16 12:11:07,0.703s,PASSED
+Bandera = 0,Chrome 92.0.4515.131,,,2021-08-16 12:11:07,2021-08-16 12:11:07,0.000s,PASSED
+while (Bandera != 1),Chrome 92.0.4515.131,,,2021-08-16 12:11:07,2021-08-16 12:11:14,7.692s,PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 92.0.4515.131,,,2021-08-16 12:11:14,2021-08-16 12:11:15,0.319s,PASSED
+if (num == 10),Chrome 92.0.4515.131,,,2021-08-16 12:11:15,2021-08-16 12:11:15,0.000s,PASSED
+else,Chrome 92.0.4515.131,,,2021-08-16 12:11:15,2021-08-16 12:11:15,0.001s,PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 92.0.4515.131,,,2021-08-16 12:11:15,2021-08-16 12:11:15,0.224s,PASSED
+if (num == 5),Chrome 92.0.4515.131,,,2021-08-16 12:11:15,2021-08-16 12:11:15,0.000s,PASSED
+if (num == 10),Chrome 92.0.4515.131,,,2021-08-16 12:11:15,2021-08-16 12:11:15,0.001s,PASSED
